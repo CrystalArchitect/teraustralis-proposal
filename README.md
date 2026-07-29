@@ -30,6 +30,7 @@ See [LICENSE](LICENSE).
 | 06 | [06-GEOGRAPHIC-BRIEF.md](06-GEOGRAPHIC-BRIEF.md) | Pilbara / Port Hedland southern substrate |
 | 07 | [07-INVESTMENT-THESIS.md](07-INVESTMENT-THESIS.md) | One-page partnership thesis |
 | 08 | [08-SPACEX-XAI-ONE-PAGER.md](08-SPACEX-XAI-ONE-PAGER.md) | First-principles case for SpaceX / xAI engagement |
+| 09 | [09-SOUTHERN-NODE-ROADMAP.md](09-SOUTHERN-NODE-ROADMAP.md) | Multi-site map, kept separate from the active pitch — status-labeled, not a document to forward as-is |
 | — | [LICENSE](LICENSE) | All Rights Reserved + ABN |
 
 ---
