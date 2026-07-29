@@ -1,4 +1,4 @@
-# TerAustralis Vision
+# TerAustralis Incognita Vision
 
 **Terra Australis Incognita — Multiplanetary Continuity**
 
@@ -27,7 +27,7 @@ Making life multiplanetary therefore means more than launching vehicles. It mean
 
 Dreams remain inert until they are given physical form. The long human dream of the stars only becomes real when the infrastructure of continuity is built. Vision without infrastructure remains fantasy. Infrastructure without vision remains mere logistics.
 
-TerAustralis exists to close that gap.
+**TerAustralis Incognita** exists to close that gap.
 
 ---
 
@@ -81,4 +81,4 @@ Distance is the quarantine.
 Dreams become infrastructure.  
 The light expands.
 
-This is the TerAustralis vision — the modern continuation of *Terra Australis Incognita*, scaled to the full multiplanetary horizon.
+This is the **TerAustralis Incognita** vision — the modern continuation of *Terra Australis Incognita*, scaled to the full multiplanetary horizon.
