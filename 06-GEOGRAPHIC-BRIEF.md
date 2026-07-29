@@ -50,6 +50,17 @@ The value of this work is in its control and containment: small, instrumented pl
 
 ---
 
+## Water & Environmental Context
+
+Feedstock and testbed claims above rest on published hydrology, not assumption:
+
+- **Great Artesian Basin (GAB)** — one of the world's largest groundwater basins, roughly 1.7 million km² under much of arid and semi-arid Australia. Water sits in porous sedimentary rock under artesian pressure; recharge is slow and localised relative to the basin's scale — a resource to plan around, not an infinite tap. ([Great Artesian Basin — Wikipedia](https://en.wikipedia.org/wiki/Great_Artesian_Basin); [State of the Environment — water sources](https://soe.dcceew.gov.au/inland-water/environment/water-sources))
+- **Lake Eyre Basin (LEB)** — one of the world's largest endorheic (inland-draining) basins, roughly 1.2 million km², spanning inland Queensland, South Australia, the Northern Territory, and western New South Wales. Flow is highly variable — long dry periods punctuated by episodic flooding. ([Lake Eyre Basin — Wikipedia](https://en.wikipedia.org/wiki/Lake_Eyre_basin))
+
+Any water-dependent pathway (ISRU testbed use, industrial process water, feedstock support) needs engineering and allocation planning against these figures, not around them.
+
+---
+
 ## Role in the Multiplanetary Stack
 
 The Pilbara / Port Hedland axis is proposed as the primary terrestrial southern continuity and recovery node. It anchors physical redundancy, feedstock, energy, and testbed capacity on Earth so that the larger multiplanetary expansion rests on a more durable foundation.
