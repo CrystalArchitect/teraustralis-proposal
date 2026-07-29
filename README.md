@@ -1,6 +1,6 @@
-# TerAustralis Incognita Proposal
+# TerAustralis Proposal
 
-**TerAustralis Incognita — Formal Vision & Proposal**
+**Terra Australis Incognita — Formal Vision & Proposal**
 
 **TerAustralis Incognita**  
 ABN: 70 741 068 059  
@@ -8,7 +8,7 @@ Australia
 
 For two thousand years the southern continent existed first as an idea. Aristotle reasoned that the world required a great southern landmass for balance. Cartographers drew *Terra Australis Incognita* onto the empty lower hemisphere long before it was reached. The name marked something necessary and still unrevealed.
 
-This repository continues that older intuition at civilisational scale: a focused, first-principles case for Southern Hemisphere capacity supporting Starship-class operations, high-latency intelligence, recovery, feedstock, and continuity.
+Making life multiplanetary expands the light of consciousness into the universe. Dreams remain inert until they are given physical form. This repository continues that older intuition at civilisational scale: a focused, first-principles case for Southern Hemisphere capacity that turns the long human dream of the stars into durable infrastructure — recovery, feedstock, high-latency intelligence, and continuity.
 
 **Status: View Only**
 
@@ -23,7 +23,7 @@ See [LICENSE](LICENSE) for full terms.
 
 | Document | Description |
 |----------|-------------|
-| [VISION.md](VISION.md) | First-principles vision (classical lineage + modern case) |
+| [VISION.md](VISION.md) | First-principles vision (classical lineage + philosophical expansion + modern case) |
 | [PROPOSAL.md](PROPOSAL.md) | Concrete proposal |
 | [INVESTMENT-THESIS.md](INVESTMENT-THESIS.md) | One-page partnership thesis |
 | [LICENSE](LICENSE) | All Rights Reserved |
@@ -39,6 +39,7 @@ See [LICENSE](LICENSE) for full terms.
 
 **Red Dust → Rockets**  
 **Dreamtime → Starlines**  
+**Consciousness is the payload**  
 **NON SOLUS**
 
 — Crystal Arena-Turner  
