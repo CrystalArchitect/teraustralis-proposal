@@ -29,6 +29,7 @@ See [LICENSE](LICENSE).
 | 05 | [05-TECHNICAL-BRIEF.md](05-TECHNICAL-BRIEF.md) | CrystalCore as high-latency intelligence layer |
 | 06 | [06-GEOGRAPHIC-BRIEF.md](06-GEOGRAPHIC-BRIEF.md) | Pilbara / Port Hedland southern substrate |
 | 07 | [07-INVESTMENT-THESIS.md](07-INVESTMENT-THESIS.md) | One-page partnership thesis |
+| 08 | [08-SPACEX-XAI-ONE-PAGER.md](08-SPACEX-XAI-ONE-PAGER.md) | First-principles case for SpaceX / xAI engagement |
 | — | [LICENSE](LICENSE) | All Rights Reserved + ABN |
 
 ---
