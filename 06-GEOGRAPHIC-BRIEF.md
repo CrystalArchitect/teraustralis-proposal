@@ -19,6 +19,16 @@ Key characteristics:
 
 ---
 
+## Cultural Heritage & Consent — Binding, Not Aspirational
+
+The Pilbara carries some of the oldest continuously-held cultural heritage on Earth, including sites, songlines, and sacred places under the custodianship of Traditional Owners and native title holders. No site selection, survey, construction, or testbed activity described in this brief proceeds over an identified sacred site or songline path without Free, Prior and Informed Consent from the relevant Traditional Owners, in advance of any physical works.
+
+This is stated explicitly because the region's own recent history makes the cost of getting it wrong concrete: in May 2020, Rio Tinto destroyed the 46,000-year-old Juukan Gorge rock shelters in the Pilbara, sacred to the Puutu Kunti Kurrama and Pinikura peoples, while acting within the law as it then stood. The subsequent parliamentary inquiry found the existing legal minimum was not an adequate standard. This project holds itself to a higher one than legal compliance alone.
+
+Practically, this means: independent Aboriginal cultural heritage survey before any site is finalised, Traditional Owner-controlled assessment processes (not proponent-controlled ones), and native title and heritage consultation run under the Aboriginal Heritage Act 1972 (WA) and the Native Title Act 1993 (Cth) as a floor, not a ceiling. This brief does not identify or describe any specific sacred site or songline — that knowledge belongs to its custodians, not to this document.
+
+---
+
 ## Pilbara / Port Hedland
 
 **Port Hedland** provides deep-water access and industrial logistics at heavy-industry scale.  
