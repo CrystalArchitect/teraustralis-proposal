@@ -2,6 +2,10 @@
 
 **Formal Vision & Proposal for a Southern Hemisphere Multiplanetary Continuity Node**
 
+**TerAustralis Incognita**  
+ABN: 70 741 068 059  
+Australia
+
 This repository contains a focused, first-principles case for Southern Hemisphere capacity supporting Starship-class operations, high-latency intelligence, recovery, feedstock, and continuity.
 
 **Status: View Only**
@@ -37,4 +41,5 @@ See [LICENSE](LICENSE) for full terms.
 
 — Crystal Arena-Turner  
 Founder, TerAustralis Incognita  
+ABN 70 741 068 059  
 CrystalCore OS / Southern Node
