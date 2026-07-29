@@ -1,6 +1,6 @@
-# TerAustralis Proposal
+# TerAustralis Incognita Proposal
 
-**Terra Australis Incognita — Formal Vision & Proposal**
+**TerAustralis Incognita — Formal Vision & Proposal**
 
 **TerAustralis Incognita**  
 ABN: 70 741 068 059  
