@@ -1,34 +1,35 @@
-# TerAustralis Incognita — Proposal
+# TerAustralis Incognita
 
-**Terra Australis Incognita — Formal Vision & Proposal for Multiplanetary Continuity**
+**Formal Proposal & Vision for Multiplanetary Continuity**
 
 **TerAustralis Incognita**  
 ABN: 70 741 068 059  
 Australia
 
-For two thousand years the southern continent existed first as an idea. Aristotle reasoned that the world required a great southern landmass for balance. Cartographers drew *Terra Australis Incognita* onto the empty lower hemisphere long before it was reached.
+---
 
-Making life multiplanetary expands the light of consciousness into the universe. Dreams remain inert until they are given physical form. This repository contains a focused, first-principles case for the southern terrestrial node of a multiplanetary continuity architecture — recovery, feedstock, high-latency intelligence, and the preservation of continuity itself.
+## Status
 
-**Status: View Only**
+**View Only.**  
+These materials are provided for evaluation and discussion.  
+No licence is granted to copy, modify, build upon, implement, or commercialise any part of this work without prior written permission.
 
-These materials are provided for evaluation and discussion only.  
-No licence is granted to copy, modify, build upon, implement, or commercialise any part of this work without prior written permission from the copyright holder.
-
-See [LICENSE](LICENSE) for full terms.
+See [LICENSE](LICENSE).
 
 ---
 
-## Core Documents
+## Document Architecture (First Principles Order)
 
-| Document | Description |
-|----------|-------------|
-| [VISION.md](VISION.md) | Full multiplanetary vision (classical lineage + philosophical frame) |
-| [PROPOSAL.md](PROPOSAL.md) | Concrete, buildable proposal |
-| [TECHNICAL-BRIEF.md](TECHNICAL-BRIEF.md) | CrystalCore as high-latency intelligence layer |
-| [GEOGRAPHIC-BRIEF.md](GEOGRAPHIC-BRIEF.md) | Pilbara / Port Hedland southern substrate |
-| [INVESTMENT-THESIS.md](INVESTMENT-THESIS.md) | One-page partnership thesis |
-| [LICENSE](LICENSE) | All Rights Reserved |
+| Order | Document | Purpose |
+|-------|----------|---------|
+| 01 | [01-PROBLEMS.md](01-PROBLEMS.md) | The actual problems being solved |
+| 02 | [02-FIRST-PRINCIPLES.md](02-FIRST-PRINCIPLES.md) | Non-negotiable constraints derived from physics and continuity |
+| 03 | [03-VISION.md](03-VISION.md) | Full multiplanetary vision (classical lineage + civilisational scale) |
+| 04 | [04-PROPOSAL.md](04-PROPOSAL.md) | Concrete, buildable proposal |
+| 05 | [05-TECHNICAL-BRIEF.md](05-TECHNICAL-BRIEF.md) | CrystalCore as high-latency intelligence layer |
+| 06 | [06-GEOGRAPHIC-BRIEF.md](06-GEOGRAPHIC-BRIEF.md) | Pilbara / Port Hedland southern substrate |
+| 07 | [07-INVESTMENT-THESIS.md](07-INVESTMENT-THESIS.md) | One-page partnership thesis |
+| — | [LICENSE](LICENSE) | All Rights Reserved + ABN |
 
 ---
 
@@ -46,5 +47,4 @@ See [LICENSE](LICENSE) for full terms.
 
 — Crystal Arena-Turner  
 Founder, TerAustralis Incognita  
-ABN 70 741 068 059  
-CrystalCore OS / Southern Node
+ABN 70 741 068 059
