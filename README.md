@@ -2,9 +2,14 @@
 
 **Formal Vision & Proposal for a Southern Hemisphere Multiplanetary Continuity Node**
 
-This repository contains the clean, first-principles case for building Southern Hemisphere capacity that supports Starship-class operations, high-latency intelligence, recovery, feedstock, and continuity.
+This repository contains a focused, first-principles case for Southern Hemisphere capacity supporting Starship-class operations, high-latency intelligence, recovery, feedstock, and continuity.
 
-It is deliberately separate from the living operational / doctrinal vault so that serious evaluators (SpaceX, xAI, industrial partners, sovereign builders) can examine a focused proposal without noise.
+**Status: View Only**
+
+These materials are provided for evaluation and discussion only.  
+No licence is granted to copy, modify, build upon, implement, or commercialise any part of this work without prior written permission from the copyright holder.
+
+See [LICENSE](LICENSE) for full terms.
 
 ---
 
@@ -13,16 +18,16 @@ It is deliberately separate from the living operational / doctrinal vault so tha
 | Document | Description |
 |----------|-------------|
 | [VISION.md](VISION.md) | First-principles vision |
-| [PROPOSAL.md](PROPOSAL.md) | Concrete buildable proposal |
-| [INVESTMENT-THESIS.md](INVESTMENT-THESIS.md) | One-page investment / partnership thesis |
-| [LICENSE](LICENSE) | MIT + attribution notice |
+| [PROPOSAL.md](PROPOSAL.md) | Concrete proposal |
+| [INVESTMENT-THESIS.md](INVESTMENT-THESIS.md) | One-page partnership thesis |
+| [LICENSE](LICENSE) | All Rights Reserved |
 
 ---
 
 ## Related Public Record
 
 - SpaceNews (22 May 2026): [Leveraging AUKUS and southern geography](https://spacenews.com/leveraging-aukus-and-southern-geography-building-australias-dual-use-space-infrastructure-for-strategic-resilience/)
-- Living technical & ethical specifications: [crystalcore-os-aeris-vault12](https://github.com/CrystalArchitect/crystalcore-os-aeris-vault12)
+- Living technical specifications (separate repository): [crystalcore-os-aeris-vault12](https://github.com/CrystalArchitect/crystalcore-os-aeris-vault12)
 
 ---
 

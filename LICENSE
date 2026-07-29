@@ -1,40 +1,21 @@
-MIT License
-
 Copyright (c) 2026 Crystal Arena-Turner / TerAustralis Incognita
+All Rights Reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+NOTICE
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This repository and all materials contained within it (including but not limited to the Vision, Proposal, Investment Thesis, strategic analysis, geographic concepts, architectural principles, and any related documentation) are the exclusive intellectual property of Crystal Arena-Turner and TerAustralis Incognita.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+PERMISSION IS NOT GRANTED for any person or entity to:
 
----
+- Copy, reproduce, or redistribute the materials
+- Modify, adapt, or create derivative works
+- Build upon, implement, or commercialise any of the ideas, frameworks, or proposals
+- Use the materials in whole or in part for any commercial, research, or operational purpose
 
-Additional Notice on Vision & Proposal Materials
+without the prior express written permission of the copyright holder.
 
-The conceptual framework, strategic analysis, geographic proposals, and
-architectural principles contained in this repository (TerAustralis Incognita,
-CrystalCore OS design constraints, Southern Node concept, and related
-first-principles arguments) are the intellectual work of Crystal Arena-Turner.
+Viewing this repository for personal evaluation or discussion is permitted. Any other use requires written authorisation.
 
-These materials are released under the MIT License above so that serious
-builders, operators, and partners may freely study, reference, and build upon
-them. Attribution to the original author and to TerAustralis Incognita is
-requested when the work is substantially used or extended in public or
-commercial contexts.
+For licensing or partnership enquiries, contact the copyright holder directly.
 
-The author retains the right to continue developing the living systems
-(CrystalCore OS, AERIS, operational documentation) under separate repositories
-and licensing as required.
+All rights reserved.
