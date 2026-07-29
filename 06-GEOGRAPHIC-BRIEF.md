@@ -36,6 +36,20 @@ Pilbara and Arkaroola-class environments offer arid, remote, high-isolation cond
 
 ---
 
+## Terraforming Proving Ground: Testbed-Scale, Not Landscape-Scale
+
+Mars terraforming techniques will need to be proven before they are relied upon. Pilbara/Arkaroola-class terrain offers a proving ground for that work — at plot scale, not continental scale.
+
+Scoped test-plot applications include:
+
+- Regolith-simulant soil rehabilitation and closed-loop agriculture trials
+- Water extraction and atmospheric/gas-processing pathway testing, feeding the same oxygen/methane ISRU work referenced above
+- Habitat-scale life-support and continuity-protocol rehearsal under real isolation and latency conditions
+
+The value of this work is in its control and containment: small, instrumented plots that prove a technique, not a change to the surrounding landscape or ecology. This is deliberately distinct from any proposal to green or re-vegetate the outback at scale — that is a separate undertaking, with its own water-rights, ecological, and land-custodianship questions, and is out of scope here.
+
+---
+
 ## Role in the Multiplanetary Stack
 
 The Pilbara / Port Hedland axis is proposed as the primary terrestrial southern continuity and recovery node. It anchors physical redundancy, feedstock, energy, and testbed capacity on Earth so that the larger multiplanetary expansion rests on a more durable foundation.
