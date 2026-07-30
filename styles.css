@@ -353,6 +353,11 @@ footer .rights {
   margin: 0 0 8px;
 }
 .map-plate.tall-plate { aspect-ratio: 4 / 3; }
+.map-plate.crop-bottom-text img {
+  top: -10%;
+  height: 122%;
+  object-position: 50% 0%;
+}
 .map-plate figcaption {
   position: absolute;
   bottom: 0;
