@@ -24,7 +24,7 @@ Current Starship architecture is heavily weighted toward northern / equatorial U
 
 From the May 2026 SpaceNews analysis:
 
-- **Pilbara / Port Hedland** already hosts deep-water ports, heavy industry, and critical minerals (Australia produces roughly half of global lithium). This is ready industrial substrate for large-scale battery storage, manufacturing, and potential propellant support.
+- **Pilbara / Port Hedland** already hosts deep-water ports, heavy industry, and critical minerals — Australia is the world's largest lithium producer, at roughly 36% of global mine output in 2024 ([USGS-derived](https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-lithium.pdf)), ahead of Chile at about 22%. This is ready industrial substrate for large-scale battery storage, manufacturing, and potential propellant support.
 - **Existing dual-use foundations** (including DARC in the Pilbara) support re-entry monitoring, splashdown coordination, and recovery operations. Starship recovery off Australian coasts with towing to Pilbara ports is a practical option already noted in open discussion.
 - **Southern isolation + Mars-analogue terrain** (Pilbara / Arkaroola-class environments) provides real-world remote-ops training and ISRU testbeds for oxygen / methane pathways without leaving Earth.
 - **AUKUS Pillar 2 and Technology Safeguard pathways** create a ready political and technical corridor for deeper commercial integration.
