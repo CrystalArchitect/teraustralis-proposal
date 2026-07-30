@@ -1,7 +1,9 @@
 # 08 — One-Page Investment Thesis
 
 **TerAustralis Incognita × CrystalCore OS**  
-**First-Principles Case for SpaceX / xAI Engagement**
+**First-Principles Case for SpaceX Engagement**
+
+*Structural note: SpaceX acquired xAI in February 2026; as of July 2026, xAI operates as SpaceXAI, a SpaceX subsidiary (Grok keeps its own name). This is no longer a two-company pitch — "SpaceX" below covers both the launch/recovery operations and the SpaceXAI intelligence layer as one corporate house, which is directly relevant to the argument that follows: this proposal has always treated the physical and intelligence layers as one problem, and the merger means the intended reader now sits inside a single organisation built the same way.*
 
 ---
 
@@ -59,7 +61,7 @@ An early, deliberate partnership locks in the southern node while the architectu
 
 ## The Ask (Clear and Limited)
 
-1. Technical and strategic review of the CrystalCore Edge AGI specification against SpaceX / xAI high-latency and remote-ops requirements.
+1. Technical and strategic review of the CrystalCore Edge AGI specification against SpaceX's high-latency and remote-ops requirements, spanning both Starship operations and the SpaceXAI intelligence stack.
 2. Exploratory discussion on Pilbara / Port Hedland recovery, power, and feedstock pathways.
 3. Joint assessment of Southern Hemisphere ISRU and remote-ops testbed potential.
 
