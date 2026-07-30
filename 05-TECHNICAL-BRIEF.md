@@ -55,6 +55,51 @@ Orchestration layers should be structured so that consent gates, continuity chec
 
 ---
 
+## Comparison: Two Families, One Gap
+
+The existing landscape splits into two families. Neither occupies the position this architecture targets.
+
+### Family 1 — Contemporary agent frameworks
+
+LangGraph, CrewAI, Microsoft Agent Framework (formerly AutoGen), SuperAGI and their peers solve orchestration: graph-structured or role-structured coordination of multiple agents, model-agnostic at the interface.
+
+Their shared assumptions are the problem here, not their quality:
+
+- Reachable model endpoints are assumed. Model-agnostic is not the same as link-agnostic.
+- Managed cloud deployment is the default path, with self-hosting a secondary option.
+- Behaviour under sustained link loss is degradation, not designed isolation.
+
+Framework churn is itself a continuity risk worth naming: AutoGen has moved into maintenance and merged into Microsoft Agent Framework 1.0 ([GA April 2026](https://www.langchain.com/resources/ai-agent-frameworks)), and SuperAGI — 17.6k stars, MIT licensed — last saw a commit to `main` in [January 2025](https://github.com/TransformerOptimus/SuperAGI/commits/main). Architectures intended to carry continuity across decades cannot rest on a layer with that half-life.
+
+### Family 2 — Flight software and spacecraft autonomy
+
+This family already operates under the conditions in question, and does so successfully.
+
+- **F Prime** (JPL, 2013; open-sourced 2017) decomposes flight software into discrete components with well-defined interfaces, over a C++ framework supplying message queues and threading. It flew on Ingenuity. ([JPL](https://www.jpl.nasa.gov/news/meet-the-open-source-software-powering-nasas-ingenuity-mars-helicopter/))
+- **cFS** (NASA Goddard) layers a Platform Support Package, an OS Abstraction Layer, and Core Flight Executive services; flown on Lunar Reconnaissance Orbiter and GPM. The cFS 2.0 roadmap adds plug-and-play capability for in-space robotics, distributed computing, spacecraft autonomy and onboard machine learning. ([coreflightsystem.net](https://www.coreflightsystem.net/))
+- **MEXEC** (JPL) integrates planning and execution in a models-based scheduler and executive, with tighter planner/executive coupling than procedural alternatives. ([JPL AI Group](https://ai.jpl.nasa.gov/public/documents/papers/IntEx-2020-MEXEC.pdf))
+- **CASPER** flew on EO-1, performing onboard detection of thermal anomalies and autonomously replanning follow-up observations.
+
+What this family does not attempt: general adaptive reasoning, and the preservation of a human operator's memory, agency, and continuity as a protected property. These systems are deterministic and mission-specific by design. That is a strength for their purpose, not a deficiency — but it leaves the intelligence layer unfilled.
+
+### The gap
+
+| | Local-first / fail-safe | Adaptive reasoning | Consent &amp; continuity as hard constraints |
+|---|---|---|---|
+| Agent frameworks | No | Yes | No |
+| Flight software / autonomy | Yes | Limited by design | Not their purpose |
+| CrystalCore | Yes | Yes | Yes |
+
+The operating condition is not hypothetical: Mars round-trip light time runs roughly 8 to 48 minutes depending on orbital geometry, and a Uranus mission faces about 5.5 hours two-way. Under those constraints an architecture that treats link loss as an error state is mismatched to the domain.
+
+### Stated honestly
+
+F Prime and cFS are flight-proven. CrystalCore is not. The claim here is architectural fit, not flight heritage, and the distinction matters.
+
+The corollary is that where these families already solve a problem well, the correct move is adoption rather than reinvention. F Prime's component decomposition and MEXEC's planner/executive coupling are considerably closer to the Behavior Tree orchestration described above than anything in the contemporary LLM agent stack — and are the more useful prior art for this work.
+
+---
+
 ## Role in the Larger Architecture
 
 CrystalCore is the intelligence counterpart to geographic and industrial redundancy.  

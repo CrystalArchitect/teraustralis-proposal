@@ -66,6 +66,56 @@
 
 <section>
   <div class="wrap">
+    <h2>Comparison — Two Families, One Gap</h2>
+    <p>The existing landscape splits into two families. Neither occupies the position this architecture targets.</p>
+
+    <h3 style="margin-top:28px;">Family 1 — Contemporary agent frameworks</h3>
+    <p>LangGraph, CrewAI, Microsoft Agent Framework (formerly AutoGen), SuperAGI and their peers solve orchestration: graph-structured or role-structured coordination of multiple agents, model-agnostic at the interface. Their shared assumptions are the problem here, not their quality:</p>
+    <ul class="plain">
+      <li>Reachable model endpoints are assumed. Model-agnostic is not the same as link-agnostic.</li>
+      <li>Managed cloud deployment is the default path, with self-hosting a secondary option.</li>
+      <li>Behaviour under sustained link loss is degradation, not designed isolation.</li>
+    </ul>
+    <p style="margin-top:16px;">Framework churn is itself a continuity risk worth naming: AutoGen has moved into maintenance and merged into Microsoft Agent Framework 1.0 (GA April 2026), and SuperAGI — 17.6k stars, MIT licensed — last saw a commit to <code>main</code> in January 2025. Architectures intended to carry continuity across decades cannot rest on a layer with that half-life.</p>
+
+    <h3 style="margin-top:28px;">Family 2 — Flight software and spacecraft autonomy</h3>
+    <p>This family already operates under the conditions in question, and does so successfully.</p>
+    <ul class="plain">
+      <li><strong>F Prime</strong> (JPL, 2013; open-sourced 2017) decomposes flight software into discrete components with well-defined interfaces, over a C++ framework supplying message queues and threading. It flew on Ingenuity.</li>
+      <li><strong>cFS</strong> (NASA Goddard) layers a Platform Support Package, an OS Abstraction Layer, and Core Flight Executive services; flown on Lunar Reconnaissance Orbiter and GPM. The cFS 2.0 roadmap adds plug-and-play capability for in-space robotics, distributed computing, spacecraft autonomy and onboard machine learning.</li>
+      <li><strong>MEXEC</strong> (JPL) integrates planning and execution in a models-based scheduler and executive, with tighter planner/executive coupling than procedural alternatives.</li>
+      <li><strong>CASPER</strong> flew on EO-1, performing onboard detection of thermal anomalies and autonomously replanning follow-up observations.</li>
+    </ul>
+    <p style="margin-top:16px;">What this family does not attempt: general adaptive reasoning, and the preservation of a human operator's memory, agency, and continuity as a protected property. These systems are deterministic and mission-specific by design. That is a strength for their purpose, not a deficiency — but it leaves the intelligence layer unfilled.</p>
+
+    <h3 style="margin-top:28px;">The gap</h3>
+    <div class="table-scroll">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Local-first / fail-safe</th>
+            <th scope="col">Adaptive reasoning</th>
+            <th scope="col">Consent &amp; continuity as hard constraints</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Agent frameworks</th><td>No</td><td>Yes</td><td>No</td></tr>
+          <tr><th scope="row">Flight software / autonomy</th><td>Yes</td><td>Limited by design</td><td>Not their purpose</td></tr>
+          <tr class="is-ours"><th scope="row">CrystalCore</th><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:20px;">The operating condition is not hypothetical: Mars round-trip light time runs roughly 8 to 48 minutes depending on orbital geometry, and a Uranus mission faces about 5.5 hours two-way. Under those constraints an architecture that treats link loss as an error state is mismatched to the domain.</p>
+
+    <h3 style="margin-top:28px;">Stated honestly</h3>
+    <p>F Prime and cFS are flight-proven. CrystalCore is not. The claim here is architectural fit, not flight heritage, and the distinction matters.</p>
+    <p>The corollary is that where these families already solve a problem well, the correct move is adoption rather than reinvention. F Prime's component decomposition and MEXEC's planner/executive coupling are considerably closer to the Behavior Tree orchestration described above than anything in the contemporary LLM agent stack — and are the more useful prior art for this work.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
     <h2>Role in the Larger Architecture</h2>
     <p>CrystalCore is the intelligence counterpart to geographic and industrial redundancy. Where the southern node supplies physical recovery, feedstock, and energy capacity, CrystalCore supplies the decision and continuity layer that remains functional when links are thin or broken.</p>
     <p>The preference for Behavior Tree-style orchestration directly supports the requirement that ethical and continuity constraints remain enforceable and extensible without system-wide fragility.</p>
