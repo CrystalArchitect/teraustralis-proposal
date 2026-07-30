@@ -1,14 +1,14 @@
 :root {
-  --bg: #f2e6cc;
-  --bg-alt: #ecdcb8;
-  --panel: #faf3e2;
-  --border: #cbb68e;
-  --red-dust: #8a3a1a;
-  --red-dust-bright: #b8481f;
-  --ember: #7d4c10;
-  --star: #241509;
-  --star-dim: #4a3524;
-  --star-faint: #7d6b56;
+  --bg: #0d1826;
+  --bg-alt: #132437;
+  --panel: #16283c;
+  --border: #2e4a68;
+  --red-dust: #c08a34;
+  --red-dust-bright: #d9a94f;
+  --ember: #efc978;
+  --star: #f0f4f8;
+  --star-dim: #a9bccd;
+  --star-faint: #6f88a0;
   --max-w: 880px;
 }
 
@@ -19,7 +19,7 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   background:
-    radial-gradient(ellipse 80% 50% at 50% -10%, #e9d8ae 0%, transparent 60%),
+    radial-gradient(ellipse 80% 50% at 50% -10%, #1d3a5c 0%, transparent 60%),
     var(--bg);
   color: var(--star);
   font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
@@ -38,7 +38,7 @@ nav {
   border-bottom: 1px solid var(--border);
   position: sticky;
   top: 0;
-  background: rgba(242, 230, 204, 0.92);
+  background: rgba(13, 24, 38, 0.92);
   backdrop-filter: blur(6px);
   z-index: 10;
 }
@@ -186,7 +186,7 @@ ul.plain strong { color: var(--star); }
 .cta a.button {
   display: inline-block;
   background: var(--red-dust);
-  color: #faf3e2;
+  color: #0d1826;
   text-decoration: none;
   font-family: "Futura", "Century Gothic", sans-serif;
   letter-spacing: 0.06em;
@@ -335,7 +335,7 @@ footer .rights {
   font-weight: 600;
 }
 .compare-table tr.is-ours td, .compare-table tr.is-ours th { color: var(--star); }
-.compare-table tr.is-ours { background: rgba(184, 72, 31, 0.07); }
+.compare-table tr.is-ours { background: rgba(217, 169, 79, 0.09); }
 .table-scroll { overflow-x: auto; }
 
 .map-rule {
@@ -380,7 +380,7 @@ footer .rights {
   overflow: hidden;
   border-radius: 4px;
   border: 1px solid var(--border);
-  box-shadow: 0 8px 28px rgba(36, 21, 9, 0.18);
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.45);
   margin: 8px 0 40px;
 }
 .map-plate img {
@@ -397,7 +397,7 @@ footer .rights {
   content: "";
   position: absolute;
   inset: 0;
-  box-shadow: inset 0 0 40px 10px rgba(36, 21, 9, 0.25);
+  box-shadow: inset 0 0 44px 12px rgba(13, 24, 38, 0.45);
   pointer-events: none;
 }
 .map-plate.hero-plate {
@@ -411,7 +411,7 @@ footer .rights {
   left: 0;
   right: 0;
   padding: 10px 16px;
-  background: linear-gradient(0deg, rgba(36, 21, 9, 0.55), transparent);
+  background: linear-gradient(0deg, rgba(13, 24, 38, 0.85), transparent);
   color: #faf3e2;
   font-family: "Futura", "Century Gothic", sans-serif;
   font-size: 0.68rem;
