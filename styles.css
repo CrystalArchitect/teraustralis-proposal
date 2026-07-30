@@ -308,6 +308,28 @@ footer .rights {
   margin-bottom: 14px;
 }
 
+.map-rule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 0 0 8px;
+}
+.map-rule::before, .map-rule::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+  max-width: 220px;
+}
+.map-rule .mark {
+  width: 9px;
+  height: 9px;
+  border: 1px solid var(--red-dust-bright);
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+
 .doc-nav {
   display: flex;
   justify-content: space-between;
