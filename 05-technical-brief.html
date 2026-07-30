@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>05 — Technical Brief | TerAustralis Incognita</title>
+<meta name="description" content="CrystalCore as Multiplanetary Intelligence Layer.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <a class="brand" href="index.html">Ter<strong>Australis</strong> Incognita</a>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="spacex-engagement.html">SpaceX Engagement</a>
+    </div>
+  </div>
+</nav>
+
+<header class="pitch-header">
+  <div class="wrap">
+    <div class="eyebrow">Document 05</div>
+    <h1>Technical Brief</h1>
+    <p class="lede">CrystalCore as Multiplanetary Intelligence Layer</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Design Premise</h2>
+    <p>Multiplanetary operations impose constraints that Earth-centric intelligence architectures handle poorly: high and variable latency, intermittent or contested connectivity, long periods of isolation, and the need for local decision-making that remains coherent with human intent and continuity.</p>
+    <p>CrystalCore is designed from first principles for this regime.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Core Properties</h2>
+    <div class="grid">
+      <div class="card"><h3>Local-First</h3><p>Primary intelligence and memory reside on the local substrate. Continuous external dependency is not required for core function.</p></div>
+      <div class="card"><h3>Fail-Safe Isolation</h3><p>When external links degrade or are compromised, the system defaults to local isolation rather than fail-open behaviour.</p></div>
+      <div class="card"><h3>Consent-Native</h3><p>Significant actions and modifications to continuity-critical memory require valid, current consent tokens.</p></div>
+      <div class="card"><h3>Continuity-Preserving</h3><p>Continuity of decision-making, memory, and agency is treated as a hard constraint.</p></div>
+      <div class="card"><h3>Auditable</h3><p>Decision paths and memory operations remain inspectable by the authorised human operator.</p></div>
+      <div class="card"><h3>Distance-as-Normal</h3><p>High latency is assumed as the operating condition, not treated as an error state.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Orchestration: Behavior Trees over Finite State Machines</h2>
+    <p>For the control and orchestration of agent behaviours and synthetic decision processes, CrystalCore prefers <strong>Behavior Tree (BT)</strong> architecture over legacy Finite State Machine (FSM) frameworks.</p>
+    <p><strong>Rationale:</strong></p>
+    <ul class="plain">
+      <li>BTs provide superior modularity. New corrective, ethical, or safety subroutines can be inserted hierarchically without requiring a full logic rewire.</li>
+      <li>FSMs become brittle as state and transition complexity grows. Adding a single pre-condition or corrective check often forces tangled new transitions across the graph.</li>
+      <li>In high-latency and isolation conditions, the ability to dynamically insert checks — consent validation, continuity integrity tests — without destabilising the whole system is an operational requirement, not a convenience.</li>
+    </ul>
+    <p style="margin-top:16px;"><strong>Design implication:</strong> orchestration layers should be structured so that consent gates, continuity checks, and fail-safe isolations can be added or refined as modular subtrees, keeping the architecture adaptable while preserving the hard constraints defined in the First Principles.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Role in the Larger Architecture</h2>
+    <p>CrystalCore is the intelligence counterpart to geographic and industrial redundancy. Where the southern node supplies physical recovery, feedstock, and energy capacity, CrystalCore supplies the decision and continuity layer that remains functional when links are thin or broken.</p>
+    <p>The preference for Behavior Tree-style orchestration directly supports the requirement that ethical and continuity constraints remain enforceable and extensible without system-wide fragility.</p>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="doc-nav">
+    <a href="04-proposal.html">← Proposal</a>
+    <a class="next" href="06-geographic-brief.html">Next: Geographic Brief →</a>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="mantra">Non Solus</div>
+    <p class="rights">All rights reserved. TerAustralis Incognita — ABN 70 741 068 059</p>
+  </div>
+</footer>
+</body>
+</html>
