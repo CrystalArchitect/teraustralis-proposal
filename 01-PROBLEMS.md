@@ -30,7 +30,9 @@ Southern Hemisphere physical and sovereign capacity is underdeveloped relative t
 Multiplanetary and deep-isolation operations will run under high latency, intermittent connectivity, and contested bandwidth.  
 Most current intelligence architectures assume relatively continuous, high-bandwidth links and fail open or degrade poorly when those links disappear.
 
-**Problem:** There is no mature, local-first, fail-safe intelligence layer designed for the actual operating conditions of multiplanetary work.
+Local-first inference and memory are no longer the gap: mature open-source components now run models on commodity hardware without external dependency, and flight software has operated under real light-time delay for decades.
+
+**Problem:** What does not exist is the layer above that substrate — one that makes consent enforceable at runtime rather than a deployment posture, continuity of memory and agency guaranteed rather than incidental, and fail-safe isolation a specified, tested behaviour rather than a side effect of running locally.
 
 ---
 

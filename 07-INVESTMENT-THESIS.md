@@ -8,7 +8,7 @@
 
 Single-planet concentration risk.  
 Geographic concentration of recovery and industrial capacity.  
-Absence of mature high-latency, fail-safe intelligence.  
+Local-first substrate now mature; consent, continuity and isolation guarantees above it are not.  
 Continuity of consciousness treated as optional.  
 Gap between multiplanetary vision and physical infrastructure.  
 Sovereignty and consent not yet default under distance.

@@ -53,7 +53,7 @@ It is the intelligence architecture that matches the physical architecture of a 
 - Starship cadence and recovery needs are scaling.
 - Southern redundancy reduces single-hemisphere risk.
 - Critical minerals and industrial capacity already exist in the right geography.
-- The intelligence layer for high-latency environments is currently underdeveloped relative to the physical systems.
+- The local-first substrate for high-latency operation is mature and open source. The consent, continuity and fail-safe isolation guarantees that must sit above it are not — and that is the layer this proposal addresses.
 
 An early, deliberate partnership locks in the southern node while the architecture is still forming.
 
