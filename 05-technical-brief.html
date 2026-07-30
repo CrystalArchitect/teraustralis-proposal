@@ -88,6 +88,20 @@
     </ul>
     <p style="margin-top:16px;">What this family does not attempt: general adaptive reasoning, and the preservation of a human operator's memory, agency, and continuity as a protected property. These systems are deterministic and mission-specific by design. That is a strength for their purpose, not a deficiency — but it leaves the intelligence layer unfilled.</p>
 
+    <h3 style="margin-top:28px;">Family 3 — Local-first open-source stacks</h3>
+    <p>The closest existing work to this architecture, and the most direct challenge to any novelty claim it makes. Ettore Di Giacinto's projects, all Go, all open source, all actively maintained:</p>
+    <ul class="plain">
+      <li><strong>LocalAI</strong> (~48k stars) — an open-source inference engine running LLM, vision, voice, image and video models on commodity hardware, no GPU required</li>
+      <li><strong>LocalAGI</strong> (~1.9k) — a self-hostable agent platform, positioned as a privacy-preserving alternative to hosted response APIs</li>
+      <li><strong>LocalRecall</strong> (~934) — a memory and knowledge-base layer for agents</li>
+      <li><strong>edgevpn</strong> (~2k) — decentralised peer-to-peer networking with no central servers and token-gated shared tunnels</li>
+      <li><strong>kairos</strong> (~1.8k) — an immutable Linux distribution for edge deployment</li>
+    </ul>
+    <p style="margin-top:16px;">Taken together these already supply local inference without external dependency, persistent agent memory, token-gated peer transport, and an immutable edge substrate. That is most of the physical stack this brief describes.</p>
+    <div class="note-box">
+      <strong>The honest position.</strong> This is candidate substrate, not competition. Building a parallel implementation of what LocalAI already does well would be reinvention of precisely the kind rejected above. The layer that remains genuinely unfilled is narrower than "a local-first intelligence system," and is better stated narrowly — consent as an enforced runtime primitive rather than a privacy posture; continuity as a hard architectural constraint with explicit guarantees rather than a feature that happens to persist; and fail-safe semantics defined as specified, tested isolation rather than an emergent consequence of running locally. Local-first is a precondition for these. These projects supply it. It is not by itself the contribution.
+    </div>
+
     <h3 style="margin-top:28px;">The gap</h3>
     <div class="table-scroll">
       <table class="compare-table">
@@ -102,6 +116,7 @@
         <tbody>
           <tr><th scope="row">Agent frameworks</th><td>No</td><td>Yes</td><td>No</td></tr>
           <tr><th scope="row">Flight software / autonomy</th><td>Yes</td><td>Limited by design</td><td>Not their purpose</td></tr>
+          <tr><th scope="row">Local-first open-source stacks</th><td>Local-first yes; isolation semantics unspecified</td><td>Yes</td><td>Partial — privacy posture, not enforced primitive</td></tr>
           <tr class="is-ours"><th scope="row">CrystalCore</th><td>Yes</td><td>Yes</td><td>Yes</td></tr>
         </tbody>
       </table>
@@ -111,6 +126,7 @@
     <h3 style="margin-top:28px;">Stated honestly</h3>
     <p>F Prime and cFS are flight-proven. CrystalCore is not. The claim here is architectural fit, not flight heritage, and the distinction matters.</p>
     <p>The corollary is that where these families already solve a problem well, the correct move is adoption rather than reinvention. F Prime's component decomposition and MEXEC's planner/executive coupling are considerably closer to the Behavior Tree orchestration described above than anything in the contemporary LLM agent stack — and are the more useful prior art for this work.</p>
+    <p>The same applies to Family 3 more sharply still. The realistic path is CrystalCore's consent, continuity and isolation semantics implemented <strong>on</strong> a local-first substrate that already exists and is maintained, rather than a parallel stack built to reach the same starting line.</p>
   </div>
 </section>
 

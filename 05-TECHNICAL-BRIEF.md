@@ -82,12 +82,33 @@ This family already operates under the conditions in question, and does so succe
 
 What this family does not attempt: general adaptive reasoning, and the preservation of a human operator's memory, agency, and continuity as a protected property. These systems are deterministic and mission-specific by design. That is a strength for their purpose, not a deficiency — but it leaves the intelligence layer unfilled.
 
+### Family 3 — Local-first open-source stacks
+
+The closest existing work to this architecture, and the most direct challenge to any novelty claim it makes. Ettore Di Giacinto's projects, all Go, all open source, all actively maintained:
+
+- **LocalAI** (~48k stars) — an open-source inference engine running LLM, vision, voice, image and video models on commodity hardware, no GPU required
+- **LocalAGI** (~1.9k) — a self-hostable agent platform, positioned as a privacy-preserving alternative to hosted response APIs
+- **LocalRecall** (~934) — a memory and knowledge-base layer for agents
+- **edgevpn** (~2k) — decentralised peer-to-peer networking with no central servers and token-gated shared tunnels
+- **kairos** (~1.8k) — an immutable Linux distribution for edge deployment
+
+Taken together these already supply local inference without external dependency, persistent agent memory, token-gated peer transport, and an immutable edge substrate. That is most of the physical stack this brief describes.
+
+**The honest position:** this is candidate substrate, not competition. Building a parallel implementation of what LocalAI already does well would be reinvention of precisely the kind rejected above. The layer that remains genuinely unfilled is narrower than "a local-first intelligence system," and is better stated narrowly:
+
+- **Consent as an enforced runtime primitive** — not a privacy posture or a deployment choice, but a gate that significant actions and continuity-critical memory writes must pass, with revocation that takes effect at runtime.
+- **Continuity as a hard architectural constraint** — memory, agency and decision coherence as protected properties with explicit guarantees, rather than features that happen to persist.
+- **Fail-safe semantics defined as isolation** — a specified and tested behaviour on link loss, not an emergent consequence of running locally.
+
+Local-first is a precondition for these. The projects above supply it. It is not by itself the contribution.
+
 ### The gap
 
 | | Local-first / fail-safe | Adaptive reasoning | Consent &amp; continuity as hard constraints |
 |---|---|---|---|
 | Agent frameworks | No | Yes | No |
 | Flight software / autonomy | Yes | Limited by design | Not their purpose |
+| Local-first open-source stacks | Local-first yes; isolation semantics unspecified | Yes | Partial — privacy posture, not enforced primitive |
 | CrystalCore | Yes | Yes | Yes |
 
 The operating condition is not hypothetical: Mars round-trip light time runs roughly 8 to 48 minutes depending on orbital geometry, and a Uranus mission faces about 5.5 hours two-way. Under those constraints an architecture that treats link loss as an error state is mismatched to the domain.
@@ -97,6 +118,8 @@ The operating condition is not hypothetical: Mars round-trip light time runs rou
 F Prime and cFS are flight-proven. CrystalCore is not. The claim here is architectural fit, not flight heritage, and the distinction matters.
 
 The corollary is that where these families already solve a problem well, the correct move is adoption rather than reinvention. F Prime's component decomposition and MEXEC's planner/executive coupling are considerably closer to the Behavior Tree orchestration described above than anything in the contemporary LLM agent stack — and are the more useful prior art for this work.
+
+The same applies to Family 3 more sharply still. The realistic path is CrystalCore's consent, continuity and isolation semantics implemented **on** a local-first substrate that already exists and is maintained, rather than a parallel stack built to reach the same starting line.
 
 ---
 
