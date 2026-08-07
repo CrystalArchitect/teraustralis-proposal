@@ -16,6 +16,8 @@ No licence is granted to copy, modify, build upon, implement, or commercialise a
 
 See [LICENSE](LICENSE).
 
+**Deliberately stricter than the rest of the portfolio.** The other repositories in this project (CrystalCore, TerAustralis-Incognita, and others) are licensed CC BY-NC-ND 4.0, which grants an explicit right to share and redistribute non-commercially with attribution. This repository is All Rights Reserved instead — no such right is granted — because it is the live, outward-facing pitch document set, actively shared with external partners. The tighter terms here are a choice, not an oversight.
+
 ---
 
 ## Document Architecture (First Principles Order)
