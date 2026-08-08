@@ -79,8 +79,8 @@ public, dated, and independently verifiable.
 ### Scale, dated
 
 Eleven repositories; 502 commits at 29 July 2026, more since. 74 passing
-tests across the engine's suites, green in CI. Nineteen recordings. Twelve
-proposal documents. ABN 70 741 068 059.
+tests across the engine's suites, green in CI. Nineteen recordings. Thirteen
+proposal documents, this one included. ABN 70 741 068 059.
 
 ### The Ask
 
