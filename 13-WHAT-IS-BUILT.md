@@ -17,10 +17,18 @@ of a living ledger; the continuously maintained version is
 - **The CrystalCore engine** (Python, open repository). A message bus whose
   validator rejects any message that does not declare its evidence layer; a
   consent gate that is fail-closed and revocable at runtime; memory kept
-  separate from any model, so models remain swappable faculties. Four core
-  test suites pass 51/51 and Lumina's core tests 16/16 on a fresh clone
-  (verified 24 July 2026); a 7/7 bridge selftest was added to CI the same
-  day. CI runs the suites on every push.
+  separate from any model, so models remain swappable faculties. Re-verified
+  on a fresh machine 8 August 2026 at repository head: 137/137 across every
+  suite — the four core suites (74), the companion's tests (47), the consent
+  gate's self-test (13, grown from 7 as scope and provenance checks were
+  built), and the mesh stubs (3). CI runs the suites on every push.
+- **Fabrication tooling with machine-checked output.** A parametric
+  enclosure generator (headless Blender, every dimension a named parameter)
+  and an independent geometry checker in a different library — the generator
+  does not grade its own work. Both printable parts pass every check:
+  watertight, single-body, stated dimensions (8 August 2026). Labelled
+  honestly: validated geometry is a surveyed solid, not yet a surveyed
+  object — fit and strength stay unproven until the parts are printed.
 - **A live, indexed site** — [www.teraustralis.com.au](https://www.teraustralis.com.au):
   self-generating sitemap, IndexNow notification on every deploy. Retrieved
   and cited as a source by Perplexity roughly 48 hours after DNS went live,
@@ -42,8 +50,16 @@ of a living ledger; the continuously maintained version is
 - **Clementine**, the companion application a person actually talks to:
   local-first, and previously ran end-to-end on local models via Ollama.
   After a hardware loss, the recovered package (v0.13.4) imports cleanly and
-  passes 19 of 20 offline tests on a fresh machine (24 July 2026). A full
-  local-model session on new hardware is the next verification step.
+  passes 19 of 20 offline tests on a fresh machine (24 July 2026). On
+  8 August 2026 the current interface completed its first full live
+  sessions since the loss — boot, a streamed conversation turn, memory
+  written to disk, and a second process waking with that memory and
+  carrying it back into the model's context — against a scripted stand-in
+  endpoint, recorded as machinery evidence and labelled exactly that.
+  Every link in the chain is now surveyed except one: real model weights
+  on hardware the project controls. That last step is deliberately the
+  one that requires no cloud and no third party — which is the thesis,
+  stated as an experiment.
 
 ### Designed, deliberately not built — labelled Vision
 
@@ -78,8 +94,9 @@ public, dated, and independently verifiable.
 
 ### Scale, dated
 
-Eleven repositories; 502 commits at 29 July 2026, more since. 74 passing
-tests across the engine's suites, green in CI. Nineteen recordings. Thirteen
+Eleven repositories; 502 commits at 29 July 2026, more since. 137 passing
+checks across the engine's suites at 8 August 2026, green in CI. Nineteen
+recordings. Two printable parts with machine-validated geometry. Thirteen
 proposal documents, this one included. ABN 70 741 068 059.
 
 ### The Ask
