@@ -36,6 +36,7 @@ See [LICENSE](LICENSE).
 | 10 | [10-SOVEREIGN-CAPABILITY.md](10-SOVEREIGN-CAPABILITY.md) | The institutional layer — education, governance, industry, culture, land — as the condition of engagement, honestly labelled a framework |
 | 11 | [11-PLANETARY-LATTICE.md](11-PLANETARY-LATTICE.md) | The joining rules for planetary infrastructure — self-description, scoped consent, survivable disconnection; no country assessed, ever |
 | 12 | [12-FULL-STACK.md](12-FULL-STACK.md) | Every layer of the stack mapped to one geography — minerals, energy, connectivity, compute, launch, autonomy — status-labelled; the ask unchanged |
+| 13 | [13-WHAT-IS-BUILT.md](13-WHAT-IS-BUILT.md) | The verified record behind the proposal — what runs today, dated and checkable; the package's snapshot of the archive's living STATUS ledger |
 | — | [LICENSE](LICENSE) | All Rights Reserved + ABN |
 
 ---
