@@ -21,7 +21,7 @@ The industrial substrate exists. The question is deliberate orientation toward m
 
 ## 2. High-Latency Intelligence Layer — CrystalCore
 
-CrystalCore is a local-first, consent-native Edge AGI designed for high latency, intermittent connectivity, and isolation:
+CrystalCore is a local-first, consent-native intelligence layer designed for high latency, intermittent connectivity, and isolation:
 
 - Core function does not require continuous external links
 - Fail-safe state is local isolation
@@ -61,7 +61,7 @@ These constraints are architectural.
 
 ## Immediate Practical Path
 
-1. Technical review of the CrystalCore Edge AGI specification against high-latency and remote-ops requirements.
+1. Technical review of the CrystalCore intelligence-layer specification against high-latency and remote-ops requirements.
 2. Exploratory discussion on Pilbara / Port Hedland recovery, power, and feedstock pathways.
 3. Joint assessment of Southern Hemisphere ISRU and remote-ops testbed potential.
 
