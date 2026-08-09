@@ -33,7 +33,7 @@ AUKUS and Technology Safeguard corridors.
 
 ### The Intelligence Layer
 
-CrystalCore: local-first, consent-native, continuity-preserving Edge AGI designed for the actual operating conditions of multiplanetary work.
+CrystalCore: local-first, consent-native, continuity-preserving intelligence layer designed for the actual operating conditions of multiplanetary work.
 
 ### The Ask
 

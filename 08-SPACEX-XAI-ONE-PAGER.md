@@ -38,7 +38,7 @@ From the May 2026 SpaceNews analysis:
 
 Starship and multiplanetary operations will operate under high latency, intermittent connectivity, and contested bandwidth. Centralised cloud dependency is a liability in those conditions.
 
-CrystalCore is a local-first, consent-native Edge AGI designed exactly for this regime:
+CrystalCore is a local-first, consent-native intelligence layer designed exactly for this regime:
 
 - Core function does not require continuous external links
 - Fail-safe state is local isolation, not fail-open
@@ -83,7 +83,7 @@ This proposal expects to be checked, and is built to survive it:
 
 ## The Ask (Clear and Limited)
 
-1. Technical and strategic review of the CrystalCore Edge AGI specification against SpaceX's high-latency and remote-ops requirements, spanning both Starship operations and the SpaceXAI intelligence stack.
+1. Technical and strategic review of the CrystalCore intelligence-layer specification against SpaceX's high-latency and remote-ops requirements, spanning both Starship operations and the SpaceXAI intelligence stack.
 2. Exploratory discussion on Pilbara / Port Hedland recovery, power, and feedstock pathways.
 3. Joint assessment of Southern Hemisphere ISRU and remote-ops testbed potential.
 
