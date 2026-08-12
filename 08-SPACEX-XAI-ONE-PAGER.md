@@ -67,7 +67,7 @@ This proposal expects to be checked, and is built to survive it:
 
 - **The reference implementation is public and green.** 137/137 automated
   checks across the engine's suites at repository head, re-verified on a
-  fresh machine 8 August 2026 — message-bus evidence labelling, fail-closed
+  fresh machine 10 August 2026 — message-bus evidence labelling, fail-closed
   consent gate, provenance chain, consent transport, and the companion's
   full test suite. Repositories: [github.com/CrystalArchitect](https://github.com/CrystalArchitect).
 - **The live site** — [www.teraustralis.com.au](https://www.teraustralis.com.au) —

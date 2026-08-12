@@ -439,9 +439,16 @@ footer .rights {
   text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+  nav .links a { margin-left: 16px; font-size: 0.8rem; }
+}
+
 @media (max-width: 560px) {
   .hero { padding: 64px 0 48px; }
   section { padding: 40px 0; }
   .docs-index a { flex-direction: column; align-items: flex-start; gap: 4px; }
   .docs-index .desc { text-align: left; }
+  nav .wrap { flex-wrap: wrap; row-gap: 8px; justify-content: center; }
+  nav .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 16px; }
+  nav .links a { margin-left: 0; }
 }

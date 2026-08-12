@@ -54,7 +54,7 @@ Every load-bearing claim here is meant to be checked, not taken:
   the consent gate and their test suites live at
   [github.com/CrystalArchitect](https://github.com/CrystalArchitect) with
   CI running on every push — 137/137 automated checks at repository head,
-  re-verified on a fresh machine 8 August 2026.
+  re-verified on a fresh machine 10 August 2026.
 - **The creative canon is timestamped.** A deterministic SHA-256 manifest
   over the work is anchored to Bitcoin via OpenTimestamps by CI, with each
   proof committed back into the repository. No wallet, no token, nothing
@@ -64,7 +64,9 @@ Every load-bearing claim here is meant to be checked, not taken:
   status file opens with its own rule — *"This file describes the state of
   the system, not the ambition of the system"* — and carries a corrections
   file that records errors in place rather than quietly editing them.
-- **The live site** is [www.teraustralis.com.au](https://www.teraustralis.com.au).
+- **The live site** — the main TerAustralis Incognita site, distinct from
+  this proposal package's own domain — is
+  [www.teraustralis.com.au](https://www.teraustralis.com.au).
 
 ## How AI is used here, stated plainly
 
