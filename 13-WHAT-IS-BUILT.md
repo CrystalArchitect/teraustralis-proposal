@@ -18,7 +18,7 @@ of a living ledger; the continuously maintained version is
   validator rejects any message that does not declare its evidence layer; a
   consent gate that is fail-closed and revocable at runtime; memory kept
   separate from any model, so models remain swappable faculties. Re-verified
-  on a fresh machine 8 August 2026 at repository head: 137/137 across every
+  on a fresh machine 10 August 2026 at repository head: 137/137 across every
   suite — the four core suites (74), the companion's tests (47), the consent
   gate's self-test (13, grown from 7 as scope and provenance checks were
   built), and the mesh stubs (3). CI runs the suites on every push.
@@ -94,10 +94,11 @@ public, dated, and independently verifiable.
 
 ### Scale, dated
 
-Eleven repositories; 502 commits at 29 July 2026, more since. 137 passing
-checks across the engine's suites at 8 August 2026, green in CI. Nineteen
-recordings. Two printable parts with machine-validated geometry. Thirteen
-proposal documents, this one included. ABN 70 741 068 059.
+Seventeen repositories (six archived, eleven live); 502 commits at 29 July
+2026, more since. 137 passing checks across the engine's suites, re-verified
+10 August 2026, green in CI. Nineteen recordings. Two printable parts with
+machine-validated geometry. Thirteen proposal documents, this one included.
+ABN 70 741 068 059.
 
 ### The Ask
 

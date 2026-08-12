@@ -25,7 +25,7 @@
     <a class="brand" href="index.html">Ter<strong>Australis</strong> Incognita</a>
     <div class="links">
       <a href="index.html">Home</a>
-      <a href="spacex-engagement.html">SpaceX Engagement</a>
+      <a href="08-spacex-xai-one-pager.html">SpaceX Engagement</a>
     </div>
   </div>
 </nav>
@@ -51,14 +51,16 @@
 <section>
   <div class="wrap">
     <h2>Core Properties</h2>
+    <p>These are the architecture's design targets. Current build status against each is tracked plainly in <a href="13-what-is-built.html">Document 13 — What Is Built</a>; nothing below should be read as flight-proven.</p>
     <div class="grid">
       <div class="card"><h3>Local-First</h3><p>Primary intelligence and memory reside on the local substrate. Continuous external dependency is not required for core function.</p></div>
-      <div class="card"><h3>Fail-Safe Isolation</h3><p>When external links degrade or are compromised, the system defaults to local isolation rather than fail-open behaviour.</p></div>
-      <div class="card"><h3>Consent-Native</h3><p>Significant actions and modifications to continuity-critical memory require valid, current consent tokens.</p></div>
-      <div class="card"><h3>Continuity-Preserving</h3><p>Continuity of decision-making, memory, and agency is treated as a hard constraint.</p></div>
-      <div class="card"><h3>Auditable</h3><p>Decision paths and memory operations remain inspectable by the authorised human operator.</p></div>
+      <div class="card"><h3>Consent-Native</h3><p>Significant actions and modifications to continuity-critical memory require valid, current consent tokens. The consent gate is fail-closed and revocable at runtime — implemented, tested, and re-verified at repository head (Document 13).</p></div>
+      <div class="card"><h3>Auditable</h3><p>Decision paths and memory operations remain inspectable by the authorised human operator. The message bus rejects any claim that does not declare its evidence layer; gate decisions are logged today.</p></div>
+      <div class="card"><h3>Fail-Safe Isolation <em>— design target</em></h3><p>When external links degrade or are compromised, the system is designed to default to local isolation rather than fail-open behaviour. This is architecture, not a tested behaviour: no isolation-under-sustained-link-loss test exists yet.</p></div>
+      <div class="card"><h3>Continuity-Preserving <em>— design target</em></h3><p>Continuity of decision-making, memory, and agency is treated as a hard constraint the architecture is built around. Full end-to-end continuity guarantees remain in progress.</p></div>
       <div class="card"><h3>Distance-as-Normal</h3><p>High latency is assumed as the operating condition, not treated as an error state.</p></div>
     </div>
+    <p style="margin-top:16px;">Document 12 states the honest summary plainly: CrystalCore is <em>"operating at prototype scale, honestly labelled."</em></p>
   </div>
 </section>
 

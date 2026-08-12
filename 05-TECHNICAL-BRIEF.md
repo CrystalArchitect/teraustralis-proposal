@@ -20,23 +20,27 @@ CrystalCore is designed from first principles for this regime.
 
 ## Core Properties
 
+These are the architecture's design targets. Current build status against each is tracked plainly in [Document 13 — What Is Built](13-WHAT-IS-BUILT.md); nothing below should be read as flight-proven.
+
 **Local-first**  
 Primary intelligence and memory reside on the local substrate. Continuous external dependency is not required for core function.
 
-**Fail-safe isolation**  
-When external links degrade or are compromised, the system defaults to local isolation rather than fail-open behaviour.
-
 **Consent-native**  
-Significant actions and modifications to continuity-critical memory require valid, current consent tokens.
-
-**Continuity-preserving**  
-Continuity of decision-making, memory, and agency is treated as a hard constraint.
+Significant actions and modifications to continuity-critical memory require valid, current consent tokens. The consent gate is fail-closed and revocable at runtime — implemented, tested, and re-verified at repository head (Document 13).
 
 **Auditable**  
-Decision paths and memory operations remain inspectable by the authorised human operator.
+Decision paths and memory operations remain inspectable by the authorised human operator. The message bus rejects any claim that does not declare its evidence layer; gate decisions are logged today.
+
+**Fail-safe isolation** — *design target, not yet demonstrated*  
+When external links degrade or are compromised, the system is designed to default to local isolation rather than fail-open behaviour. This is architecture, not a tested behaviour: no isolation-under-sustained-link-loss test exists yet.
+
+**Continuity-preserving** — *design target*  
+Continuity of decision-making, memory, and agency is treated as a hard constraint the architecture is built around. Full end-to-end continuity guarantees remain in progress.
 
 **Distance-as-normal**  
 High latency is assumed as the operating condition, not treated as an error state.
+
+Document 12 states the honest summary plainly: CrystalCore is *"operating at prototype scale, honestly labelled."*
 
 ---
 
