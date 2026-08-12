@@ -13,8 +13,15 @@ LICENSING: All Rights Reserved — see LICENSE.
 
 TRADE MARKS:
 
-  TerAustralis Incognita™ and CrystalCore™ are unregistered trade marks
-  claimed by Crystal Arena-Turner (ABN 70 741 068 059).
+  TerAustralis Incognita™, CrystalCore™ and CrystalCore.OS™ are
+  unregistered trade marks claimed by Crystal Arena-Turner
+  (ABN 70 741 068 059).
+
+  Other marks in this portfolio — CrystalVision™, CrystalCode™,
+  CrystalMind™, Synthetic Affect Theory™ — are claimed where they are
+  actually used, in the repositories that use them. They are not listed
+  as claimed here, because they do not appear in this package, and a
+  mark is claimed by use rather than by assertion.
 
   ™ denotes a claimed unregistered mark. Neither mark is registered with
   IP Australia, and no registered-mark claim (®) is made anywhere in this
@@ -31,6 +38,13 @@ NO REPRESENTATIONS ABOUT THIRD PARTIES:
   own or represent. No company named in it has agreed to anything, and
   nothing here should be read as a partnership, endorsement, or
   commitment by any party other than the copyright holder.
+
+  Third-party names and marks — including SpaceX, Starship, SpaceXAI,
+  Grok, Tesla, Neuralink, Synchron, Stentrode, Lynas and Varda — are the
+  property of their respective owners. They are used here nominatively,
+  to refer to those companies and their products in factual discussion.
+  No ™ or ® is asserted over them by this project, and no affiliation or
+  endorsement is implied.
 
 For commercial licensing inquiries, contact the copyright holder.
 
