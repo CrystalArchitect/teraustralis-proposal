@@ -37,18 +37,28 @@ Each of these is checkable today. **Belt: Science** unless marked otherwise.
 Flight 13 launched 24 July 2026 — SpaceX's first test flight since its public
 listing ([CNBC](https://www.cnbc.com/2026/07/24/spacex-launches-massive-starship-rocket-in-first-test-flight-since-ipo.html)).
 Ship 40 made an upright soft splashdown in the Indian Ocean, stayed afloat past
-100 hours with tanks intact, and was taken under tow by two tugs, *Normand
-Ranger* and *Skimmer Tide*, toward a Western Australian port — reported as either
-Dampier or Port Hedland, with arrival expected around 11–12 August
+100 hours with tanks intact, and was taken under tow by *Normand Ranger*, with
+*Skimmer Tide* and the support vessel *Go Australis* in company, toward
+**Dampier** in Western Australia
 ([CNN, 3 August 2026](https://www.cnn.com/2026/08/03/science/spacex-starship-indian-ocean-recovery-satellite-images);
-[Starlust](https://starlust.org/tugboats-sent-by-space-x-are-working-to-retrieve-flight-13-s-starship-from-the-indian-ocean/)).
-**Status as at the date on this brief: the tow was under way and reported to be
-in difficult seas; arrival is expected, not confirmed.** Anyone forwarding this
-document should re-check the outcome first — the argument does not depend on it,
-and overstating it would cost more than the fact is worth. What is already
-established either way is the corridor: an intact orbital-class upper stage
-recovered from the Indian Ocean is being brought to a Pilbara port because that
-is the nearest industrial coastline with the berths and cranes to take it.
+[MarineRadar](https://www.marineradar.com/trends/normand-ranger-begins-towing-spacex-starship-from-indian-2026-08-04)).
+
+**Status as at 12 August 2026 — the date on this brief. The tow is still under
+way and the ship has not arrived.** The original estimate was 11–12 August. Two
+weeks of rough seas slowed the convoy to roughly 1–3 knots; SpaceX has confirmed
+the recovery is proving harder than anticipated, and reporting now puts the ETA
+at Dampier on the **evening of 13–14 August**
+([MarineRadar](https://www.marineradar.com/trends/spacex-ship-40-under-tow-in-indian-ocean-after-starship-2026-08-05)).
+SpaceX plans to inspect the vehicle on arrival.
+
+Anyone forwarding this document should re-check the outcome before sending it.
+The argument does not depend on the tow succeeding, and overstating it would cost
+more than the fact is worth. What is established either way is the corridor: an
+intact orbital-class upper stage recovered from the Indian Ocean is being brought
+to a Pilbara-region port because that is the nearest industrial coastline with
+the berths and cranes to take it — and the difficulty of the tow is itself an
+argument for permanent recovery infrastructure closer to the splashdown zone,
+which is what Node A proposes.
 
 **The legal corridor is in force.** The Australia–United States Technology
 Safeguards Agreement — the treaty-level instrument governing US launch vehicles
@@ -246,7 +256,7 @@ any.
 | Political theatre | A partner made into a domestic football will disengage from both sides | Technical and industrial channels; no partisan alignment sought or offered |
 | Over-promising cadence | Claiming launch tempo before propellant and recovery are proven at scale destroys credibility on first contact with an engineer | Recovery and propellant first, explicitly; launch is downstream and labelled Vision |
 | Raw-material trap | Exporting concentrate and importing magnets leaves the partner's real exposure untouched | Mid-stream processing is inside the node definition, not an optional extra |
-| Ship 40 outcome | If the tow fails or diverts, a brief that led on it looks careless | The recovery is cited with its status as at 12 August 2026 and the corridor argument stands independently |
+| Ship 40 outcome | If the tow fails or diverts, a brief that led on it looks careless | The recovery is cited with its live status and re-checked before each send. The ETA has already slipped once, from 11–12 to 13–14 August, and this document was updated rather than left to age. The corridor argument stands independently of the outcome |
 
 ---
 
