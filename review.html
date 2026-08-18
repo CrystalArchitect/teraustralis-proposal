@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review Pack — one sitting · TerAustralis Incognita</title>
+<meta name="description" content="Fifteen minutes: a labelled latency-and-consent gym, a two-page geographic brief with no mythos, and a thirty-day evaluation licence covering software only.">
+<link rel="stylesheet" href="styles.css">
+<link rel="canonical" href="https://proposal.teraustralis.com.au/review.html">
+<meta property="og:site_name" content="TerAustralis Incognita">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://proposal.teraustralis.com.au/review.html">
+<meta property="og:title" content="Review Pack — one sitting">
+<meta property="og:description" content="Fifteen minutes: latency and consent, a surveyed geographic brief, and a thirty-day evaluation licence.">
+<meta property="og:image" content="https://proposal.teraustralis.com.au/images/hero-sovereign-horizon.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Review Pack — one sitting">
+<meta name="twitter:description" content="Fifteen minutes: latency and consent, a surveyed geographic brief, and a thirty-day evaluation licence.">
+<meta name="twitter:image" content="https://proposal.teraustralis.com.au/images/hero-sovereign-horizon.jpg">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="index.html">Ter<strong>Australis</strong> Incognita</a>
+    <div class="links">
+      <a href="review.html">Review pack</a>
+      <a href="08-spacex-xai-one-pager.html">SpaceX Engagement</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+</nav>
+
+<header class="pitch-header">
+  <div class="wrap">
+    <div class="eyebrow">One sitting · fifteen minutes</div>
+    <h1>Review Pack</h1>
+    <p class="lede">Three artefacts. No mythos. No fifteenth document. A technical reader can finish this sitting and know what is surveyed, what is dreamed, and what they are allowed to run.</p>
+  </div>
+</header>
+
+<div class="wrap"><div class="map-rule"><span class="mark"></span></div></div>
+
+<section>
+  <div class="wrap">
+    <div class="note-box">
+      <strong>How to sit.</strong> Run the gym (six minutes). Read the geographic brief (six). Read the licence (three). The Incognita Rule holds: dreamed lines stay labelled dreamed until they are surveyed. This pack forwards only surveyed facts and working software. Vision stays in the longer proposal, where it is labelled Vision. Intended reader: a SpaceX / SpaceXAI technical reviewer. The proposal remains All Rights Reserved.
+    </div>
+    <nav class="sitting-jump" aria-label="Artefacts">
+      <a href="#gym">01 Gym</a>
+      <a href="#geo">02 Geo brief</a>
+      <a href="#licence">03 Licence</a>
+    </nav>
+  </div>
+</section>
+
+<section id="gym">
+  <div class="wrap">
+    <h2>01 · Latency and consent gym</h2>
+    <p>The clock is compressed and labelled. <strong>One second of this clock is one minute of simulated light-time.</strong> A typical Earth–Mars one-way is 4–24 minutes; at this scale that is 4–24 seconds of wall time. The compression is a teaching aid, not a physics claim.</p>
+    <p>Consent is a runtime property: a grant request must write <code>pending.jsonl</code> first; if that write fails, the request is refused. Unlabelled speech is rejected before consent is consulted. Revoke takes effect on the next request. Memory survives a process restart.</p>
+
+    <div class="gym">
+      <div class="gym-panel">
+        <h3>Light-time clock</h3>
+        <p class="gym-scale">Compression (labelled): 1 s = 1 min simulated light-time · scale 60×</p>
+        <p class="gym-readout"><span id="gym-clock" class="tabular">0.0</span> <span class="unit">min</span></p>
+        <p class="dist">process <span id="gym-process">1</span></p>
+        <div class="gym-actions">
+          <button type="button" id="gym-start">Start clock</button>
+          <button type="button" class="ghost" id="gym-reset">Reset clock</button>
+        </div>
+      </div>
+
+      <div class="gym-panel">
+        <h3>Consent gate</h3>
+        <p>A grant request writes pending first. Fail-closed if the write fails, if there is no grant, or after revoke.</p>
+        <p id="gym-consent" class="status-badge" data-consent="none">consent: none</p>
+        <label class="gym-check"><input type="checkbox" id="gym-write" checked> pending.jsonl write succeeds</label>
+        <p id="gym-grant-error" class="gym-error"></p>
+        <div class="gym-actions">
+          <button type="button" id="gym-request">Request grant</button>
+          <button type="button" class="ghost" id="gym-grant" disabled>Grant</button>
+          <button type="button" class="ghost" id="gym-deny" disabled>Deny</button>
+          <button type="button" class="ghost" id="gym-revoke">Revoke</button>
+        </div>
+      </div>
+
+      <div class="gym-panel">
+        <h3>Envelope</h3>
+        <p>Every action carries a belt. Unlabelled speech never reaches the action.</p>
+        <div class="gym-fields">
+          <label>Belt
+            <select id="gym-belt">
+              <option value="">Unlabelled</option>
+              <option value="science" selected>Science</option>
+              <option value="vision">Vision</option>
+              <option value="docs-gov">Docs / gov</option>
+            </select>
+          </label>
+          <label>Action
+            <select id="gym-action">
+              <option value="uplink">Uplink</option>
+              <option value="sync">Sync</option>
+              <option value="command">Command</option>
+            </select>
+          </label>
+        </div>
+        <div class="gym-actions">
+          <button type="button" id="gym-send">Send envelope</button>
+        </div>
+        <ol id="gym-log" class="gym-log"><li class="faint">No verdicts yet.</li></ol>
+      </div>
+
+      <div class="gym-panel">
+        <h3>Memory and self-test</h3>
+        <p>Facts persist across a process restart. That is the continuity claim a reviewer can press.</p>
+        <div class="gym-fields">
+          <input id="gym-note" type="text" placeholder="Write a fact" autocomplete="off">
+        </div>
+        <div class="gym-actions">
+          <button type="button" id="gym-remember">Remember</button>
+          <button type="button" class="ghost" id="gym-restart">Restart process</button>
+          <button type="button" class="ghost" id="gym-selftest">Run six self-tests</button>
+        </div>
+        <ul id="gym-memory" class="gym-log"><li class="faint">No facts stored.</li></ul>
+        <ul id="gym-tests" class="gym-log"></ul>
+      </div>
+    </div>
+    <p class="source-link">Source: <a href="https://github.com/CrystalArchitect/teraustralis-proposal/blob/main/15-REVIEW-PACK.md">15-REVIEW-PACK.md</a> (unnumbered sitting, not a fifteenth argument).</p>
+  </div>
+</section>
+
+<section id="geo">
+  <div class="wrap">
+    <h2>02 · Geographic brief — surveyed facts only</h2>
+    <p>Two pages. No narrative overlay. No site is selected. Belts are labelled on every claim. Full source: <a href="GEO-BRIEF-ENGINEER.md">GEO-BRIEF-ENGINEER.md</a>.</p>
+
+    <article class="site-card">
+      <span class="status-badge status-active">belt: science</span>
+      <h3>Port and industry already exist</h3>
+      <p>Port Hedland is a working deep-water bulk port on the Pilbara coast. Heavy industry, rail, and a FIFO construction workforce are already there. That is not the same thing as a recovery architecture. Orientation of an existing industrial machine is the claim — not a greenfield city.</p>
+    </article>
+    <article class="site-card">
+      <span class="status-badge status-active">belt: science</span>
+      <h3>Critical minerals, dated</h3>
+      <p>Australia was the world's largest lithium producer in 2024 at roughly 36% of global mine output (Chile ~22%). The Pilbara also hosts iron ore at export scale and rare-earth feedstock (Mt Weld → Lynas). Minerals are a surveyed stock. Propellant and mid-stream processing are not automatic consequences.</p>
+    </article>
+    <article class="site-card">
+      <span class="status-badge status-active">belt: science</span>
+      <h3>Legal corridor is in force</h3>
+      <p>The U.S.–Australia Technology Safeguards Agreement was signed 26 October 2023 and entered into force 23 July 2024. It is the treaty-level instrument for U.S. launch vehicles and related technology on Australian soil. AUKUS Pillar 2 sits alongside. The corridor exists. Access to it by an independent Australian entity is not evidenced.</p>
+    </article>
+    <article class="site-card">
+      <span class="status-badge status-active">belt: science</span>
+      <h3>Re-entry on Australian soil has been done</h3>
+      <p>Varda's W-2 capsule — launched on a SpaceX rideshare — landed at the Koonibba Test Range, South Australia, on 28 February 2025: the first commercial spacecraft recovered on Australian soil, with further landings since. Approvals, range operations, and recovery logistics have been exercised. That is a range fact, not a Port Hedland berth.</p>
+    </article>
+    <article class="site-card">
+      <span class="status-badge status-active">belt: science</span>
+      <h3>Dual-use sensing exists nearby</h3>
+      <p>Space-domain sensing on the north-west coast (including the AUKUS-related radar at Exmouth) supports tracking and re-entry awareness. Earlier drafts placed DARC in the Pilbara; the correction is Exmouth. Sensing is not a crane that can lift a 52-metre stage.</p>
+    </article>
+    <article class="site-card">
+      <span class="status-badge status-active">belt: science</span>
+      <h3>Water is a constraint, not a backdrop</h3>
+      <p>The Great Artesian Basin covers ~1.7 million km²; recharge is slow and localised. The Lake Eyre Basin covers ~1.2 million km² and is highly episodic. Any water-dependent pathway (process water, testbed, feedstock) must be engineered against these figures, not around them.</p>
+    </article>
+    <article class="site-card">
+      <span class="status-badge">belt: docs-gov</span>
+      <h3>Free, Prior and Informed Consent is a hard door</h3>
+      <p>No site selection, survey, construction, or testbed work proceeds over an identified sacred site or songline path without FPIC from the relevant Traditional Owners, in advance. Floor: Aboriginal Heritage Act 1972 (WA) and Native Title Act 1993 (Cth). Ceiling: higher than the legal minimum — Juukan Gorge (May 2020) is why. This brief names no specific sacred site.</p>
+    </article>
+    <article class="site-card">
+      <span class="status-badge">belt: docs-gov</span>
+      <h3>What this page does not claim</h3>
+      <p>It does not select a site. It does not assert that Port Hedland is the optimal southern recovery port. It does not claim TerAustralis Incognita can operate a recovery berth. Those lines are Vision, held in the longer proposal, and are not forwarded here as surveyed.</p>
+    </article>
+  </div>
+</section>
+
+<section id="licence">
+  <div class="wrap">
+    <h2>03 · Thirty-day evaluation licence</h2>
+    <p>Software only. CrystalCore modules and Clementine. The proposal remains All Rights Reserved. Printable copy: <a href="evaluation-license.html">evaluation-license.html</a> · source <a href="EVALUATION-LICENSE.md">EVALUATION-LICENSE.md</a>.</p>
+    <ol class="ask-list">
+      <li><strong>What is licensed.</strong> For thirty consecutive days from first download or clone, the Licensee may use the CrystalCore software modules published in CrystalArchitect/TerAustralis-Incognita-Code and CrystalArchitect/Clementine-ai-companion solely to evaluate fitness for a non-production technical review.</li>
+      <li><strong>What is not licensed.</strong> This licence does not cover the proposal documents at proposal.teraustralis.com.au, the longer narrative works, art, recordings, or any geographic / industrial concept. Those remain All Rights Reserved. Viewing them for personal evaluation is already permitted; this instrument adds nothing to that grant.</li>
+      <li><strong>Permitted use.</strong> Run the Software on hardware the Licensee controls. Execute the published self-tests. Inspect source. Produce an internal written review for the Licensee's own staff. That is the entire permitted set.</li>
+      <li><strong>Forbidden use.</strong> No production deployment. No sublicensing. No modification published as a competing product. No training of a model on the Software or its documentation. No implication of partnership, endorsement, or AUKUS / TSA access. No commercial use of any kind.</li>
+      <li><strong>Term and end.</strong> The grant ends at 23:59:59 Australia/Sydney on the thirtieth day, or on written revocation by the Licensor, whichever is first. At end, the Licensee must delete copies of the Software except one archival copy kept solely for the internal review file.</li>
+      <li><strong>No warranty.</strong> The Software is provided as-is. No warranty of merchantability, fitness, or non-infringement. The Licensor is a self-funded Australian sole trader (ABN 70 741 068 059), not a prime contractor.</li>
+      <li><strong>How to accept.</strong> Clone or download the Software during the evaluation window, and retain this instrument with the clone. No signature is required. For a commercial or production licence, write to the copyright holder before the thirtieth day.</li>
+    </ol>
+    <p style="margin-top:24px;">Clone <a href="https://github.com/CrystalArchitect/TerAustralis-Incognita-Code">TerAustralis-Incognita-Code</a> or <a href="https://github.com/CrystalArchitect/Clementine-ai-companion">Clementine-ai-companion</a> to accept. The proposal on this site is view-only.</p>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="doc-nav">
+    <a href="index.html">← Home</a>
+    <a class="next" href="08-spacex-xai-one-pager.html">SpaceX Engagement →</a>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="mantra">Non Solus</div>
+    <p style="max-width:480px;margin:20px auto 0;font-size:0.85rem;">Crystal Arena-Turner — Founder, TerAustralis Incognita</p>
+    <p class="rights">Proposal: All rights reserved. Software: thirty-day evaluation licence, separate instrument. TerAustralis Incognita™ — ABN 70 741 068 059</p>
+  </div>
+</footer>
+
+<script src="review.js"></script>
+</body>
+</html>

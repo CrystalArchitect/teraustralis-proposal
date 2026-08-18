@@ -38,6 +38,9 @@ See [LICENSE](LICENSE).
 | 12 | [12-FULL-STACK.md](12-FULL-STACK.md) | Every layer of the stack mapped to one geography — minerals, energy, connectivity, compute, launch, autonomy — status-labelled; the ask unchanged |
 | 13 | [13-WHAT-IS-BUILT.md](13-WHAT-IS-BUILT.md) | The verified record behind the proposal — what runs today, dated and checkable; the package's snapshot of the archive's living STATUS ledger |
 | 14 | [14-MULTI-NODE-BRIEF.md](14-MULTI-NODE-BRIEF.md) | Three industrial nodes on one geography — recovery and propellant, power and compute, high-trust neurotechnology — with every anchor dated and sourced, and a risk register |
+| — | [15-REVIEW-PACK.md](15-REVIEW-PACK.md) | **Not document 15.** One sitting for a technical reader: gym, two-page geo brief, thirty-day evaluation licence. Live at [review.html](https://proposal.teraustralis.com.au/review.html) |
+| — | [GEO-BRIEF-ENGINEER.md](GEO-BRIEF-ENGINEER.md) | Two-page surveyed extract (no site selected) |
+| — | [EVALUATION-LICENSE.md](EVALUATION-LICENSE.md) | Thirty-day software-only evaluation grant — Code and Clementine; this repo stays ARR |
 | — | [ABOUT.md](ABOUT.md) | Who is responsible for this proposal, how to respond to it, how to verify its claims, and how AI is used here — unnumbered, because it describes the package rather than arguing within it |
 | — | [LICENSE](LICENSE) | All Rights Reserved + ABN |
 
