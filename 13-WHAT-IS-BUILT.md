@@ -29,6 +29,7 @@ of a living ledger; the continuously maintained version is
   watertight, single-body, stated dimensions (8 August 2026). Labelled
   honestly: validated geometry is a surveyed solid, not yet a surveyed
   object — fit and strength stay unproven until the parts are printed.
+- **Proposal-site prototypes** (20 August 2026) — [proposal.teraustralis.com.au/prototypes.html](https://proposal.teraustralis.com.au/prototypes.html): hybrid-identity shape, Start Ya Bastard ignition, labelled Earth–Mars light-time. Browser teaching aids. The Python engine is unchanged.
 - **A live, indexed site** — [www.teraustralis.com.au](https://www.teraustralis.com.au):
   self-generating sitemap, IndexNow notification on every deploy. Retrieved
   and cited as a source by Perplexity roughly 48 hours after DNS went live,

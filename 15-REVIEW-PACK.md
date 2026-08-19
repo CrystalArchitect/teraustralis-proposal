@@ -10,6 +10,8 @@ This is **not document 15**. It is not a fifteenth argument in the proposal arch
 
 Live sitting: [review.html](https://proposal.teraustralis.com.au/review.html)
 
+Browser prototypes (identity, ignition, light-time) live beside the sitting at [prototypes.html](https://proposal.teraustralis.com.au/prototypes.html). Teaching aids. Not a fourth artefact of this pack, and not the Python engine.
+
 ---
 
 ## Artefact 01 — Latency and consent gym
