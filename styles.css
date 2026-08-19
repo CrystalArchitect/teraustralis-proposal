@@ -343,6 +343,74 @@ ul.plain strong { color: var(--star); }
 .source-link { font-size: 0.82rem; color: var(--star-faint); margin-top: 16px; }
 .source-link a { color: var(--aurora-teal); }
 
+.key-halves {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 8px;
+  margin: 12px 0;
+}
+.key-half {
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 10px 8px;
+  font-family: "Futura", "Century Gothic", sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--star-faint);
+  text-align: center;
+}
+.key-half.on { color: var(--ember); border-color: var(--red-dust); }
+.key-half.off { opacity: 0.35; text-decoration: line-through; }
+.ign-banner {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 16px 18px;
+  font-family: ui-monospace, "Cascadia Code", "SFMono-Regular", Menlo, monospace;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--ember);
+  white-space: pre-wrap;
+  min-height: 8.5em;
+}
+.campus-switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 18px;
+}
+.campus-switch button {
+  min-height: 44px;
+  padding: 0 18px;
+  background: transparent;
+  color: var(--star);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  font-family: "Futura", "Century Gothic", sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.campus-switch button.on,
+.campus-switch button:hover {
+  background: var(--red-dust);
+  color: #05060a;
+  border-color: var(--red-dust-bright);
+}
+ul.plain {
+  margin: 12px 0 0;
+  padding-left: 1.1em;
+  color: var(--star-dim);
+}
+ul.plain li { margin: 8px 0; }
+.campus-panel { margin-top: 8px; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
 @media (max-width: 560px) {
   .cta a.button.ghost { margin-left: 0; margin-top: 12px; }
 }
