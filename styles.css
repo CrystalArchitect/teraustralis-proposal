@@ -374,6 +374,39 @@ ul.plain strong { color: var(--star); }
   white-space: pre-wrap;
   min-height: 8.5em;
 }
+.campus-switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 18px;
+}
+.campus-switch button {
+  min-height: 44px;
+  padding: 0 18px;
+  background: transparent;
+  color: var(--star);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  font-family: "Futura", "Century Gothic", sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.campus-switch button.on,
+.campus-switch button:hover {
+  background: var(--red-dust);
+  color: #05060a;
+  border-color: var(--red-dust-bright);
+}
+ul.plain {
+  margin: 12px 0 0;
+  padding-left: 1.1em;
+  color: var(--star-dim);
+}
+ul.plain li { margin: 8px 0; }
+.campus-panel { margin-top: 8px; }
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
