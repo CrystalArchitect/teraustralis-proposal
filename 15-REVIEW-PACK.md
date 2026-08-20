@@ -10,6 +10,8 @@ This is **not document 15**. It is not a fifteenth argument in the proposal arch
 
 Live sitting: [review.html](https://proposal.teraustralis.com.au/review.html)
 
+JATS 1.3 interchange (not a journal, not a DOI): [jats/review-pack.xml](jats/review-pack.xml)
+
 Browser toys (Smash, mint, compressed clocks) were withdrawn on 20 August 2026. Old URL [prototypes.html](prototypes.html) redirects to the sitting.
 
 ---
