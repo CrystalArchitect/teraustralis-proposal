@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Syne:wght@500;600;700;800&display=swap");
 
 :root {
-  --bg: #100e0a;
-  --bg-alt: #1a1610;
-  --panel: rgba(28, 24, 18, 0.78);
-  --border: rgba(232, 196, 120, 0.22);
-  --hematite: #c47a3a;
-  --dust: #e2c07a;
-  --ember: #f4ead4;
-  --red-dust: #c47a3a;
-  --red-dust-bright: #f0d9a0;
-  --star: #f4ead4;
-  --star-dim: #cbbca0;
-  --star-faint: #8a7e68;
-  --void: #100e0a;
+  --bg: #07060a;
+  --bg-alt: #0e0c12;
+  --panel: rgba(14, 12, 18, 0.84);
+  --border: rgba(201, 162, 55, 0.22);
+  --hematite: #c9a237;
+  --dust: #d4b86a;
+  --ember: #f0e6c8;
+  --red-dust: #c9a237;
+  --red-dust-bright: #e8d48a;
+  --star: #f0e6c8;
+  --star-dim: #b8a878;
+  --star-faint: #6e6450;
+  --void: #07060a;
   --max-w: 920px;
   --font-serif: "Instrument Serif", "Iowan Old Style", Georgia, serif;
   --font-ui: "Syne", "Futura", system-ui, sans-serif;
@@ -688,7 +688,7 @@ body.home nav .links a:hover { color: var(--dust); }
   inset: 0;
   z-index: 0;
   overflow: hidden;
-  background: #0b0908;
+  background: #07060a;
 }
 .hero-media img {
   width: 100%;
@@ -697,14 +697,14 @@ body.home nav .links a:hover { color: var(--dust); }
   object-position: 52% 42%;
   transform: scale(1.08);
   animation: orbit-drift 42s ease-in-out infinite alternate;
-  filter: contrast(0.98) saturate(1.05) sepia(0.12);
+  filter: contrast(1.12) saturate(0.9);
 }
 .hero-veil {
   position: absolute;
   inset: 0;
   z-index: 1;
   background:
-    linear-gradient(180deg, rgba(16,14,10,0.12) 0%, rgba(16,14,10,0.02) 42%, rgba(16,14,10,0.55) 78%, #100e0a 100%);
+    linear-gradient(180deg, rgba(7,6,10,0.2) 0%, rgba(7,6,10,0.04) 40%, rgba(7,6,10,0.72) 78%, #07060a 100%);
   pointer-events: none;
 }
 .hero-grain {
@@ -712,8 +712,8 @@ body.home nav .links a:hover { color: var(--dust); }
   inset: 0;
   z-index: 2;
   pointer-events: none;
-  opacity: 0.12;
-  mix-blend-mode: overlay;
+  opacity: 0.28;
+  mix-blend-mode: soft-light;
   background-image: url("images/grain.png");
   background-size: 160px 160px;
 }
