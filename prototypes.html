@@ -3,20 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prototypes — TerAustralis Incognita</title>
-<meta name="description" content="Browser prototypes of CrystalCore: hybrid identity, Start Ya Bastard ignition, and labelled light-time. Teaching aids, not the Python engine.">
+<title>Prototypes withdrawn — TerAustralis Incognita</title>
+<meta name="description" content="Browser toys withdrawn 20 August 2026. The proposal is documents. The engine is Python.">
+<meta http-equiv="refresh" content="0; url=review.html">
 <link rel="stylesheet" href="styles.css">
-<link rel="canonical" href="https://proposal.teraustralis.com.au/prototypes.html">
+<link rel="canonical" href="https://proposal.teraustralis.com.au/review.html">
 <meta property="og:site_name" content="TerAustralis Incognita">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://proposal.teraustralis.com.au/prototypes.html">
-<meta property="og:title" content="Prototypes — TerAustralis Incognita">
-<meta property="og:description" content="Hybrid identity, ignition, and labelled light-time. Browser teaching aids. The engine is Python.">
+<meta property="og:url" content="https://proposal.teraustralis.com.au/review.html">
+<meta property="og:title" content="Prototypes withdrawn">
+<meta property="og:description" content="The Smash / mint gyms are gone. Read the Review Pack.">
 <meta property="og:image" content="https://proposal.teraustralis.com.au/images/hero-sovereign-horizon.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Prototypes — TerAustralis Incognita">
-<meta name="twitter:description" content="Hybrid identity, ignition, and labelled light-time. Browser teaching aids. The engine is Python.">
-<meta name="twitter:image" content="https://proposal.teraustralis.com.au/images/hero-sovereign-horizon.jpg">
+<meta name="robots" content="noindex">
 </head>
 <body>
 
@@ -25,9 +24,7 @@
     <a class="brand" href="index.html">Ter<strong>Australis</strong> Incognita</a>
     <div class="links">
       <a href="review.html">Review pack</a>
-      <a href="prototypes.html">Prototypes</a>
       <a href="sydney-station.html">Sydney Station</a>
-      <a href="08-spacex-xai-one-pager.html">SpaceX Engagement</a>
       <a href="about.html">About</a>
     </div>
   </div>
@@ -35,147 +32,23 @@
 
 <header class="pitch-header">
   <div class="wrap">
-    <div class="eyebrow">Prototypes · labelled teaching aids</div>
-    <h1>Press the plant.</h1>
-    <p class="lede">Three browser gyms for a reviewer who will not clone Python today. They demonstrate the rules. They are not CrystalCore. The engine is <code>TerAustralis-Incognita-Code</code>. Consent gym with six self-tests lives in the <a href="review.html#gym">Review Pack</a>.</p>
+    <div class="eyebrow">Withdrawn · 20 August 2026</div>
+    <h1>No toys on this site.</h1>
+    <p class="lede">The Smash, mint, and light-time gyms were teaching aids. They read as a game. They are gone. The rules live as prose in the Review Pack. The engine is Python.</p>
   </div>
 </header>
 
-<div class="wrap"><div class="map-rule"><span class="mark"></span></div></div>
-
-<section>
-  <div class="wrap">
-    <div class="note-box">
-      <strong>Belt: Science for the numbers. Prototype for the buttons.</strong>
-      A Starline public key is 1984 bytes (Ed25519 32 + ML-DSA-65 1952). A fingerprint is 16 hex. A SourceCode field signature is 12 hex. Browsers cannot run ML-DSA; the halves here are random bytes of those lengths so the <em>shape</em> can be pressed. The real roar is <code>python3 -m consent_transport.start</code>.
-    </div>
-    <nav class="sitting-jump" aria-label="Prototypes">
-      <a href="#identity">01 Identity</a>
-      <a href="#ignition">02 Ignition</a>
-      <a href="#light">03 Light-time</a>
-      <a href="review.html#gym">04 Consent gym</a>
-      <a href="sydney-station.html">05 Sydney Station</a>
-    </nav>
-  </div>
-</section>
-
-<section id="identity">
-  <div class="wrap">
-    <h2>01 · Hybrid identity</h2>
-    <p>Two signing keys, used as one person. Verification requires both halves. The fingerprint hashes the whole 1984-byte blob, so swapping the post-quantum half changes the name. A 12-hex field signature is a different object — refused, not hashed into a peer.</p>
-    <div class="gym">
-      <div class="gym-panel">
-        <h3>Mint (in memory)</h3>
-        <p class="gym-scale">Random bytes standing in for keys. Nothing written to disk.</p>
-        <div class="key-halves" aria-hidden="true">
-          <div class="key-half ed" id="half-ed">Ed25519 · 32 B</div>
-          <div class="key-half pq" id="half-pq">ML-DSA-65 · 1952 B</div>
-        </div>
-        <p class="gym-readout" style="font-size:1.4rem;"><span id="id-fp" class="tabular">—</span></p>
-        <p class="gym-scale">fingerprint = sha256(1984 bytes)[:16]</p>
-        <div class="gym-actions">
-          <button type="button" id="id-mint">Mint hybrid</button>
-          <button type="button" class="ghost" id="id-drop">Drop ML-DSA half</button>
-        </div>
-        <p id="id-note" class="gym-error"></p>
-      </div>
-      <div class="gym-panel">
-        <h3>Pairing material</h3>
-        <p>Paste a key, a THRESHOLD JSON, or <code>561783900808</code>.</p>
-        <div class="gym-fields">
-          <label>Material
-            <input id="id-paste" type="text" placeholder="hybrid hex, JSON, or 12-hex" autocomplete="off">
-          </label>
-        </div>
-        <div class="gym-actions">
-          <button type="button" id="id-pair">Try pair</button>
-          <button type="button" class="ghost" id="id-origin">Try origin signature</button>
-        </div>
-        <ol id="id-log" class="gym-log"><li class="faint">No pairing attempts yet.</li></ol>
-      </div>
-      <div class="gym-panel">
-        <h3>Self-test</h3>
-        <p>The four claims a reviewer can press in this browser.</p>
-        <div class="gym-actions">
-          <button type="button" id="id-selftest">Run four tests</button>
-        </div>
-        <ul id="id-tests" class="gym-log"></ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="ignition">
-  <div class="wrap">
-    <h2>02 · Start Ya Bastard</h2>
-    <p>The ignition verb asked for on X. Cough is “can we hash.” Roar is a 1984-byte blob and a 16-hex label, in memory. Not a fourth wire message. Not a seventh OS. Writes nothing.</p>
-    <div class="gym">
-      <div class="gym-panel" style="grid-column:1/-1;">
-        <h3>Ignition</h3>
-        <pre id="ign-banner" class="ign-banner" aria-live="polite">[PROTOCOL] Start Ya Bastard
-idle. smash to cough, then roar.</pre>
-        <div class="gym-actions">
-          <button type="button" id="ign-smash">Smash</button>
-          <button type="button" class="ghost" id="ign-clear">Clear</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="light">
-  <div class="wrap">
-    <h2>03 · Labelled light-time</h2>
-    <p>Compression, labelled: <strong>1 second of clock = 1 minute of simulated light-time</strong> (scale 60). A typical Earth–Mars one-way is 4–24 minutes. This is a teaching aid, not a physics claim. The envelope still needs a belt and a grant — same fail-closed rule as the Review Pack gym, local to this page.</p>
-    <div class="gym">
-      <div class="gym-panel">
-        <h3>One-way delay</h3>
-        <p class="gym-scale">Simulated light-time, minutes</p>
-        <p class="gym-readout"><span id="lt-mins" class="tabular">12</span> <span class="unit">min</span></p>
-        <label class="gym-check">Delay
-          <input id="lt-range" type="range" min="4" max="24" value="12">
-        </label>
-        <p class="gym-scale">Wall wait ≈ <span id="lt-wall">12.0</span> s at scale 60.</p>
-        <p id="lt-consent" class="status-badge" data-consent="none">consent: none</p>
-        <div class="gym-actions">
-          <button type="button" id="lt-grant">Grant</button>
-          <button type="button" class="ghost" id="lt-revoke">Revoke</button>
-        </div>
-      </div>
-      <div class="gym-panel">
-        <h3>Uplink</h3>
-        <p>Send now. Arrival is delayed. Revoke before arrival refuses the landing.</p>
-        <div class="gym-fields">
-          <label>Belt
-            <select id="lt-belt">
-              <option value="">Unlabelled</option>
-              <option value="science" selected>Science</option>
-              <option value="vision">Vision</option>
-            </select>
-          </label>
-        </div>
-        <div class="gym-actions">
-          <button type="button" id="lt-send">Send uplink</button>
-        </div>
-        <ol id="lt-log" class="gym-log"><li class="faint">No uplinks yet.</li></ol>
-      </div>
-    </div>
-    <p class="source-link">Engine (Python, hybrid Ed25519++ML-DSA): <a href="https://github.com/CrystalArchitect/TerAustralis-Incognita-Code">TerAustralis-Incognita-Code</a>. Consent gym: <a href="review.html#gym">review.html</a>.</p>
-  </div>
-</section>
-
 <div class="cta">
-  <a class="button" href="review.html">Sit the Review Pack</a>
-  <a class="button ghost" href="13-what-is-built.html">What is built</a>
+  <a class="button" href="review.html">Read the Review Pack</a>
+  <a class="button ghost" href="https://github.com/CrystalArchitect/TerAustralis-Incognita-Code">Python engine</a>
 </div>
 
 <footer>
   <div class="wrap">
     <div class="mantra">Non Solus</div>
-    <p style="max-width:480px;margin:0 auto;font-size:0.85rem;">Crystal Arena-Turner — Founder, TerAustralis Incognita</p>
-    <p class="rights">All rights reserved. View only — no licence granted to copy, modify, build upon, implement, or commercialise without prior written permission. TerAustralis Incognita™ — ABN 70 741 068 059</p>
+    <p class="rights">All rights reserved. TerAustralis Incognita™ — ABN 70 741 068 059</p>
   </div>
 </footer>
-<script src="prototypes.js"></script>
+
 </body>
 </html>

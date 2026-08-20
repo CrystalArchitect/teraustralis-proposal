@@ -4,18 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Review Pack — one sitting · TerAustralis Incognita</title>
-<meta name="description" content="Fifteen minutes: a labelled latency-and-consent gym, a two-page geographic brief with no mythos, and a thirty-day evaluation licence covering software only.">
+<meta name="description" content="One sitting: consent and latency rules in prose, a two-page geographic brief with no mythos, and a thirty-day evaluation licence covering software only.">
 <link rel="stylesheet" href="styles.css">
 <link rel="canonical" href="https://proposal.teraustralis.com.au/review.html">
 <meta property="og:site_name" content="TerAustralis Incognita">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://proposal.teraustralis.com.au/review.html">
 <meta property="og:title" content="Review Pack — one sitting">
-<meta property="og:description" content="Fifteen minutes: latency and consent, a surveyed geographic brief, and a thirty-day evaluation licence.">
+<meta property="og:description" content="Consent and latency in prose, a surveyed geographic brief, and a thirty-day evaluation licence. No toys.">
 <meta property="og:image" content="https://proposal.teraustralis.com.au/images/hero-sovereign-horizon.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Review Pack — one sitting">
-<meta name="twitter:description" content="Fifteen minutes: latency and consent, a surveyed geographic brief, and a thirty-day evaluation licence.">
+<meta name="twitter:description" content="Consent and latency in prose, a surveyed geographic brief, and a thirty-day evaluation licence.">
 <meta name="twitter:image" content="https://proposal.teraustralis.com.au/images/hero-sovereign-horizon.jpg">
 </head>
 <body>
@@ -25,7 +25,6 @@
     <a class="brand" href="index.html">Ter<strong>Australis</strong> Incognita</a>
     <div class="links">
       <a href="review.html">Review pack</a>
-      <a href="prototypes.html">Prototypes</a>
       <a href="sydney-station.html">Sydney Station</a>
       <a href="08-spacex-xai-one-pager.html">SpaceX Engagement</a>
       <a href="about.html">About</a>
@@ -35,9 +34,9 @@
 
 <header class="pitch-header">
   <div class="wrap">
-    <div class="eyebrow">One sitting · fifteen minutes</div>
+    <div class="eyebrow">One sitting · read, do not press</div>
     <h1>Review Pack</h1>
-    <p class="lede">Three artefacts. No mythos. No fifteenth document. A technical reader can finish this sitting and know what is surveyed, what is dreamed, and what they are allowed to run.</p>
+    <p class="lede">Three artefacts. No mythos. No fifteenth document. No browser toys. A technical reader can finish this sitting and know what is surveyed, what is dreamed, and what they are allowed to run.</p>
   </div>
 </header>
 
@@ -46,89 +45,29 @@
 <section>
   <div class="wrap">
     <div class="note-box">
-      <strong>How to sit.</strong> Run the gym (six minutes). Read the geographic brief (six). Read the licence (three). The Incognita Rule holds: dreamed lines stay labelled dreamed until they are surveyed. This pack forwards only surveyed facts and working software. Vision stays in the longer proposal, where it is labelled Vision. Intended reader: a SpaceX / SpaceXAI technical reviewer. The proposal remains All Rights Reserved.
+      <strong>How to sit.</strong> Read the rules (five minutes). Read the geographic brief (seven). Read the licence (three). The Incognita Rule holds: dreamed lines stay labelled dreamed until they are surveyed. This pack forwards only surveyed facts and working software. Vision stays in the longer proposal, where it is labelled Vision. Intended reader: a SpaceX / SpaceXAI technical reviewer. The proposal remains All Rights Reserved.
     </div>
     <nav class="sitting-jump" aria-label="Artefacts">
-      <a href="#gym">01 Gym</a>
+      <a href="#rules">01 Rules</a>
       <a href="#geo">02 Geo brief</a>
       <a href="#licence">03 Licence</a>
     </nav>
   </div>
 </section>
 
-<section id="gym">
+<section id="rules">
   <div class="wrap">
-    <h2>01 · Latency and consent gym</h2>
-    <p>The clock is compressed and labelled. <strong>One second of this clock is one minute of simulated light-time.</strong> A typical Earth–Mars one-way is 4–24 minutes; at this scale that is 4–24 seconds of wall time. The compression is a teaching aid, not a physics claim.</p>
-    <p>Consent is a runtime property: a grant request must write <code>pending.jsonl</code> first; if that write fails, the request is refused. Unlabelled speech is rejected before consent is consulted. Revoke takes effect on the next request. Memory survives a process restart.</p>
-
-    <div class="gym">
-      <div class="gym-panel">
-        <h3>Light-time clock</h3>
-        <p class="gym-scale">Compression (labelled): 1 s = 1 min simulated light-time · scale 60×</p>
-        <p class="gym-readout"><span id="gym-clock" class="tabular">0.0</span> <span class="unit">min</span></p>
-        <p class="dist">process <span id="gym-process">1</span></p>
-        <div class="gym-actions">
-          <button type="button" id="gym-start">Start clock</button>
-          <button type="button" class="ghost" id="gym-reset">Reset clock</button>
-        </div>
-      </div>
-
-      <div class="gym-panel">
-        <h3>Consent gate</h3>
-        <p>A grant request writes pending first. Fail-closed if the write fails, if there is no grant, or after revoke.</p>
-        <p id="gym-consent" class="status-badge" data-consent="none">consent: none</p>
-        <label class="gym-check"><input type="checkbox" id="gym-write" checked> pending.jsonl write succeeds</label>
-        <p id="gym-grant-error" class="gym-error"></p>
-        <div class="gym-actions">
-          <button type="button" id="gym-request">Request grant</button>
-          <button type="button" class="ghost" id="gym-grant" disabled>Grant</button>
-          <button type="button" class="ghost" id="gym-deny" disabled>Deny</button>
-          <button type="button" class="ghost" id="gym-revoke">Revoke</button>
-        </div>
-      </div>
-
-      <div class="gym-panel">
-        <h3>Envelope</h3>
-        <p>Every action carries a belt. Unlabelled speech never reaches the action.</p>
-        <div class="gym-fields">
-          <label>Belt
-            <select id="gym-belt">
-              <option value="">Unlabelled</option>
-              <option value="science" selected>Science</option>
-              <option value="vision">Vision</option>
-              <option value="docs-gov">Docs / gov</option>
-            </select>
-          </label>
-          <label>Action
-            <select id="gym-action">
-              <option value="uplink">Uplink</option>
-              <option value="sync">Sync</option>
-              <option value="command">Command</option>
-            </select>
-          </label>
-        </div>
-        <div class="gym-actions">
-          <button type="button" id="gym-send">Send envelope</button>
-        </div>
-        <ol id="gym-log" class="gym-log"><li class="faint">No verdicts yet.</li></ol>
-      </div>
-
-      <div class="gym-panel">
-        <h3>Memory and self-test</h3>
-        <p>Facts persist across a process restart. That is the continuity claim a reviewer can press.</p>
-        <div class="gym-fields">
-          <input id="gym-note" type="text" placeholder="Write a fact" autocomplete="off">
-        </div>
-        <div class="gym-actions">
-          <button type="button" id="gym-remember">Remember</button>
-          <button type="button" class="ghost" id="gym-restart">Restart process</button>
-          <button type="button" class="ghost" id="gym-selftest">Run six self-tests</button>
-        </div>
-        <ul id="gym-memory" class="gym-log"><li class="faint">No facts stored.</li></ul>
-        <ul id="gym-tests" class="gym-log"></ul>
-      </div>
-    </div>
+    <h2>01 · Consent and latency — the rules</h2>
+    <p>CrystalCore is Python, in <a href="https://github.com/CrystalArchitect/TerAustralis-Incognita-Code">TerAustralis-Incognita-Code</a>. This page does not simulate it. The rules a reviewer is asked to hold:</p>
+    <ol class="ask-list">
+      <li><strong>Label or refuse.</strong> Every action carries a belt (science, vision, or docs/gov). Unlabelled speech never reaches the action.</li>
+      <li><strong>Ask first.</strong> A grant request must write a pending record first. If that write fails, the request is refused.</li>
+      <li><strong>Fail closed.</strong> No grant, or a revoke, blocks the next request. Refusal is the default.</li>
+      <li><strong>Revoke wins in flight.</strong> A grant can be taken back. The next action sees the revoke. Light-time delay does not keep a dead grant alive.</li>
+      <li><strong>Memory is not the model.</strong> Facts persist across a process restart. Models are swappable faculties, not the identity.</li>
+      <li><strong>Delay is labelled.</strong> Earth–Mars one-way is typically 4–24 minutes. Any compressed clock on a teaching page was a labelled aid, not a physics claim. The engine does not pretend otherwise.</li>
+    </ol>
+    <p>Identity, if needed, is in the Python engine: two signing halves used as one person (Ed25519 32 bytes + ML-DSA-65 1952 bytes = 1984 bytes). The fingerprint is sixteen hex of the SHA-256 of that blob. A twelve-hex field signature is a different object and is refused. Those numbers are science. They are not a button.</p>
     <p class="source-link">Source: <a href="https://github.com/CrystalArchitect/teraustralis-proposal/blob/main/15-REVIEW-PACK.md">15-REVIEW-PACK.md</a> (unnumbered sitting, not a fifteenth argument).</p>
   </div>
 </section>
@@ -142,6 +81,11 @@
       <span class="status-badge status-active">belt: science</span>
       <h3>Port and industry already exist</h3>
       <p>Port Hedland is a working deep-water bulk port on the Pilbara coast. Heavy industry, rail, and a FIFO construction workforce are already there. That is not the same thing as a recovery architecture. Orientation of an existing industrial machine is the claim — not a greenfield city.</p>
+    </article>
+    <article class="site-card">
+      <span class="status-badge status-active">belt: science</span>
+      <h3>Western Sydney Aerotropolis is a working precinct</h3>
+      <p>Western Sydney International (Nancy-Bird Walton) is a 24-hour airport at Badgerys Creek. The operator states passenger services from <strong>25 October 2026</strong>. Bradfield City Centre and the Western Sydney Employment Area sit beside it. That is a surveyed precinct. A 150–250 MW compute / robotics load is <strong>not</strong> contracted and is not forwarded here as surveyed. No site inside the precinct is selected. Invitation, labelled Vision: <a href="sydney-station.html">Sydney Station</a>.</p>
     </article>
     <article class="site-card">
       <span class="status-badge status-active">belt: science</span>
@@ -176,7 +120,7 @@
     <article class="site-card">
       <span class="status-badge">belt: docs-gov</span>
       <h3>What this page does not claim</h3>
-      <p>It does not select a site. It does not assert that Port Hedland is the optimal southern recovery port. It does not claim TerAustralis Incognita can operate a recovery berth. Those lines are Vision, held in the longer proposal, and are not forwarded here as surveyed.</p>
+      <p>It does not select a site. It does not assert that Port Hedland is the optimal southern recovery port. It does not claim TerAustralis Incognita can operate a recovery berth. It does not claim a contracted megawatt load at Aerotropolis West. Those lines are Vision, held in the longer proposal, and are not forwarded here as surveyed.</p>
     </article>
   </div>
 </section>
@@ -213,6 +157,5 @@
   </div>
 </footer>
 
-<script src="review.js"></script>
 </body>
 </html>
