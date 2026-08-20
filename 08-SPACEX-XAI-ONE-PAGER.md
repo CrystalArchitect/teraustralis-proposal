@@ -81,14 +81,26 @@ This proposal expects to be checked, and is built to survive it:
 
 ---
 
+## Above the handset
+
+Telstra already put Starlink on Australian phones. That is surveyed. The upgrade is not another SMS.
+
+**Surveyed — their ladder.** 9 January 2025: Telstra × Starlink Direct to Cell announced. April–May 2025: 55,000+ trial SMS; field tests in NT, WA, Qld, NSW outside terrestrial coverage. 7 June 2025: Telstra Satellite Messaging launches. 28 July 2026: Select Satellite Apps (maps, weather, WhatsApp-class — not open internet). Banner can read *Telstra SpaceX*. Outdoor, line of sight, Upfront plans. Not voice. Not 000. Not aviation.
+
+**Surveyed — the air gap.** Qantas is on Viasat and NBN Sky Muster; they opted against Starlink Aviation. Qatar already flies Starlink into Australia. Telstra sells Starlink kits on the ground. “Starlink by Telstra” on a Qantas airframe is a question, not a product.
+
+**Vision — their next rungs.** Native voice, 000 via satellite, general data: Telstra and Starlink’s ladder, plus ACMA and emergency agencies. We are not the installer and we do not announce it.
+
+**Ours — when even that is gone.** Direct to Cell is still a telco loop. Fine until there is no sky, no spectrum, no constellation, or the delay is four to twenty-four minutes. CrystalCore is fail-closed local intelligence in that regime. We are not Telstra. We are not Qantas. We are not a partnership announcement. The conversation is the point.
+
+---
+
 ## The Ask (Clear and Limited)
 
 1. Technical and strategic review of the CrystalCore intelligence-layer specification against SpaceX's high-latency and remote-ops requirements, spanning both Starship operations and the SpaceXAI intelligence stack.
 2. Exploratory discussion on Pilbara / Port Hedland recovery, power, and feedstock pathways.
 3. Joint assessment of Southern Hemisphere ISRU and remote-ops testbed potential.
-4. Exploratory discussion only: Starlink Aviation and Australian long-haul — including why the flag carrier (Qantas) is still off the constellation while Telstra already retails Starlink on the ground. Not a contract. Not an announcement. Not “Starlink by Telstra” as a flying product. TerAustralis is not Qantas, not Telstra, and not an installer.
-
-**A question, labelled Vision, for discussion — not a deal.** On the ground, Starlink in Australia already has a Telstra face (kits / home internet powered by Starlink; direct-to-cell trials with a *Telstra SpaceX* banner). In the air, Qantas is on Viasat and NBN Sky Muster; Qatar already flies Starlink in. The gap is public. The conversation is the point.
+4. Exploratory discussion only: the layer above Direct to Cell — fail-closed intelligence when the handset path is gone — and, separately, why Australian long-haul is still off Starlink Aviation. Not a contract. Not an announcement. Not an installer. Not “Starlink by Telstra” as a flying product.
 
 No broad funding request at this stage. First: alignment of physics, geography, and architecture.
 
