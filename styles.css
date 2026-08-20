@@ -703,8 +703,7 @@ body.home nav .links a:hover { color: var(--dust); }
   inset: 0;
   z-index: 1;
   background:
-    linear-gradient(180deg, rgba(7,4,10,0.18) 0%, rgba(7,4,10,0.12) 38%, rgba(7,4,10,0.78) 72%, #07040a 100%),
-    linear-gradient(90deg, rgba(7,4,10,0.45) 0%, transparent 38%, transparent 70%, rgba(7,4,10,0.35) 100%);
+    linear-gradient(180deg, rgba(7,4,10,0.08) 0%, rgba(7,4,10,0.04) 42%, rgba(7,4,10,0.55) 78%, #07040a 100%);
   pointer-events: none;
 }
 .hero-cinema .wrap {
