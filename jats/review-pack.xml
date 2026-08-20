@@ -10,6 +10,7 @@
       <journal-title-group>
         <journal-title>TerAustralis Incognita — Formal Proposal</journal-title>
       </journal-title-group>
+      <!-- ISSN: not assigned. Do not invent 0000-0000. Apply via ISSN Australia / National Library if this becomes a serial. -->
       <publisher>
         <publisher-name>TerAustralis Incognita</publisher-name>
       </publisher>
@@ -97,6 +98,7 @@
           </person-group>.
           <article-title>The CARE Principles for Indigenous Data Governance</article-title>.
           <source>Data Science Journal</source>.
+          <issn>1683-1470</issn>.
           <year>2020</year>;<volume>19</volume>:<fpage>43</fpage>.
           <pub-id pub-id-type="doi">10.5334/dsj-2020-043</pub-id>
         </mixed-citation>
@@ -108,6 +110,8 @@
           </person-group>.
           <article-title>NASA's Black Marble nighttime lights product suite</article-title>.
           <source>Remote Sensing of Environment</source>.
+          <issn pub-type="ppub">0034-4257</issn>
+          <issn pub-type="epub">1879-0704</issn>.
           <year>2018</year>.
           <ext-link ext-link-type="uri" xlink:href="https://www.earthdata.nasa.gov/data/projects/black-marble">https://www.earthdata.nasa.gov/data/projects/black-marble</ext-link>
         </mixed-citation>
