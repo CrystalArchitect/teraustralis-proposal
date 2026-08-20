@@ -86,9 +86,9 @@ This proposal expects to be checked, and is built to survive it:
 1. Technical and strategic review of the CrystalCore intelligence-layer specification against SpaceX's high-latency and remote-ops requirements, spanning both Starship operations and the SpaceXAI intelligence stack.
 2. Exploratory discussion on Pilbara / Port Hedland recovery, power, and feedstock pathways.
 3. Joint assessment of Southern Hemisphere ISRU and remote-ops testbed potential.
-4. Exploratory discussion only: Starlink Aviation and Australian long-haul — including why the flag carrier (Qantas) is still off the constellation. Not a contract. Not an announcement. TerAustralis is not Qantas and not an installer.
+4. Exploratory discussion only: Starlink Aviation and Australian long-haul — including why the flag carrier (Qantas) is still off the constellation while Telstra already retails Starlink on the ground. Not a contract. Not an announcement. Not “Starlink by Telstra” as a flying product. TerAustralis is not Qantas, not Telstra, and not an installer.
 
-**A question, labelled Vision, for discussion — not a deal.** Starlink Aviation is already in the southern sky. Qatar flies it into Australia. Qantas is on Viasat and NBN Sky Muster; they opted against Starlink. The gap is public. The conversation is the point.
+**A question, labelled Vision, for discussion — not a deal.** On the ground, Starlink in Australia already has a Telstra face (kits / home internet powered by Starlink; direct-to-cell trials with a *Telstra SpaceX* banner). In the air, Qantas is on Viasat and NBN Sky Muster; Qatar already flies Starlink in. The gap is public. The conversation is the point.
 
 No broad funding request at this stage. First: alignment of physics, geography, and architecture.
 
