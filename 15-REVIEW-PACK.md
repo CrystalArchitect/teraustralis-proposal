@@ -33,7 +33,7 @@ Engine: [review.js](review.js). Same rules as the preview gym.
 
 [GEO-BRIEF-ENGINEER.md](GEO-BRIEF-ENGINEER.md)
 
-Eight claims. Six science, two docs-gov. No sacred site named. No site selected. Port Hedland is described as an existing industrial machine, not as the selected southern recovery port.
+Nine claims. Seven science, two docs-gov. No sacred site named. No site selected. Port Hedland is described as an existing industrial machine, not as the selected southern recovery port.
 
 ## Artefact 03 — Thirty-day evaluation licence
 

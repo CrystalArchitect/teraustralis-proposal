@@ -29,7 +29,7 @@ See [LICENSE](LICENSE).
 | 03 | [03-VISION.md](03-VISION.md) | Full multiplanetary vision (classical lineage + civilisational scale) |
 | 04 | [04-PROPOSAL.md](04-PROPOSAL.md) | Concrete, buildable proposal |
 | 05 | [05-TECHNICAL-BRIEF.md](05-TECHNICAL-BRIEF.md) | CrystalCore as high-latency intelligence layer |
-| 06 | [06-GEOGRAPHIC-BRIEF.md](06-GEOGRAPHIC-BRIEF.md) | Pilbara / Port Hedland southern substrate |
+| 06 | [06-GEOGRAPHIC-BRIEF.md](06-GEOGRAPHIC-BRIEF.md) | Pilbara recovery axis + Aerotropolis West precinct |
 | 07 | [07-INVESTMENT-THESIS.md](07-INVESTMENT-THESIS.md) | One-page partnership thesis |
 | 08 | [08-SPACEX-XAI-ONE-PAGER.md](08-SPACEX-XAI-ONE-PAGER.md) | First-principles case for SpaceX engagement (xAI is now the SpaceXAI subsidiary — see note in doc) |
 | 09 | [09-SOUTHERN-NODE-ROADMAP.md](09-SOUTHERN-NODE-ROADMAP.md) | Multi-site map, kept separate from the active pitch — status-labeled, not a document to forward as-is |

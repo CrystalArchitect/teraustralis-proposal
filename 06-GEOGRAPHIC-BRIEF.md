@@ -1,6 +1,6 @@
 # 06 — Geographic & Logistics Brief
 
-**Southern Terrestrial Node — Pilbara / Port Hedland Axis**  
+**Southern Terrestrial Node — two axes: Pilbara / Port Hedland, and Aerotropolis West**  
 **TerAustralis Incognita**
 
 ---
@@ -40,6 +40,20 @@ This is not speculative greenfield. The industrial base exists. The question is 
 
 ---
 
+## Aerotropolis West (Sydney)
+
+**Belt:** science for the precinct; vision for the plant.
+
+Western Sydney International (Nancy-Bird Walton) is a 24-hour airport at Badgerys Creek. The operator's public opening date for passengers is **25 October 2026**. Bradfield City Centre and the Western Sydney Employment Area sit beside it (Kemps Creek / Badgerys Creek / Luddenham). That precinct is surveyed. It is not a greenfield slogan.
+
+It is a **different job** from Pilbara / Port Hedland. Pilbara is recovery, feedstock, minerals, isolation. Aerotropolis West is grid-adjacent compute, embodiment, and a fibre path to the Westmead health precinct. Two geographies. One invitation. Detail: [sydney-station.html](sydney-station.html).
+
+Proposed Phase 1 envelope **150–250 MW** is a planning range, not a contracted load. Cooling from recycled / treated water, not drinking supply. Grid conversation via Sydney West. No site inside the precinct is selected here.
+
+Heritage floor for this axis is NSW: *National Parks and Wildlife Act 1974* (NSW) and the *Native Title Act 1993* (Cth), plus Free, Prior and Informed Consent from the relevant Traditional Owners before any physical works. This brief names no specific sacred site or songline.
+
+---
+
 ## Mars-Analogue & Testbed Value
 
 Pilbara and Arkaroola-class environments offer arid, remote, high-isolation conditions useful for surface operations logistics, high-latency procedure development, and continuity protocols before they are required on other worlds.
@@ -73,7 +87,7 @@ Any water-dependent pathway (ISRU testbed use, industrial process water, feedsto
 
 ## Role in the Multiplanetary Stack
 
-The Pilbara / Port Hedland axis is proposed as the primary terrestrial southern continuity and recovery node. It anchors physical redundancy, feedstock, energy, and testbed capacity on Earth so that the larger multiplanetary expansion rests on a more durable foundation.
+The Pilbara / Port Hedland axis is proposed as the primary terrestrial southern continuity and recovery node. It anchors physical redundancy, feedstock, energy, and testbed capacity on Earth so that the larger multiplanetary expansion rests on a more durable foundation. Aerotropolis West is the Sydney compute / embodiment campus — not a substitute recovery port.
 
 ---
 
