@@ -50,9 +50,15 @@ No site selection, survey, construction, or testbed work proceeds over an identi
 
 **Belt:** docs-gov.
 
-## 8. What this page does not claim
+## 8. Western Sydney Aerotropolis is a working precinct
 
-It does not select a site. It does not assert that Port Hedland is the optimal southern recovery port. It does not claim TerAustralis Incognita can operate a recovery berth. Those lines are Vision, held in the longer proposal, and are not forwarded here as surveyed.
+Western Sydney International (Nancy-Bird Walton) is a 24-hour airport at Badgerys Creek. The operator states passenger services from **25 October 2026**. Bradfield City Centre and the Western Sydney Employment Area sit beside it. That is a surveyed precinct. A 150–250 MW compute / robotics load is **not** contracted and is not forwarded here as surveyed. No site inside the precinct is selected.
+
+**Belt:** science (precinct and opening date). Vision (plant) is held on [sydney-station.html](sydney-station.html), not here.
+
+## 9. What this page does not claim
+
+It does not select a site. It does not assert that Port Hedland is the optimal southern recovery port. It does not claim TerAustralis Incognita can operate a recovery berth. It does not claim a contracted megawatt load at Aerotropolis West. Those lines are Vision, held in the longer proposal, and are not forwarded here as surveyed.
 
 **Belt:** docs-gov.
 
