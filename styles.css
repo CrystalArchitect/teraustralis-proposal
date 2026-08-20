@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Syne:wght@500;600;700;800&display=swap");
 
 :root {
-  --bg: #0b0908;
-  --bg-alt: #14110e;
-  --panel: rgba(22, 18, 16, 0.82);
-  --border: rgba(196, 176, 138, 0.22);
-  --hematite: #a85a38;
-  --dust: #c4b08a;
-  --ember: #e6e0d6;
-  --red-dust: #a85a38;
-  --red-dust-bright: #d4c4a8;
-  --star: #e8e4dc;
-  --star-dim: #b8b0a4;
-  --star-faint: #7a7368;
-  --void: #0b0908;
+  --bg: #100e0a;
+  --bg-alt: #1a1610;
+  --panel: rgba(28, 24, 18, 0.78);
+  --border: rgba(232, 196, 120, 0.22);
+  --hematite: #c47a3a;
+  --dust: #e2c07a;
+  --ember: #f4ead4;
+  --red-dust: #c47a3a;
+  --red-dust-bright: #f0d9a0;
+  --star: #f4ead4;
+  --star-dim: #cbbca0;
+  --star-faint: #8a7e68;
+  --void: #100e0a;
   --max-w: 920px;
   --font-serif: "Instrument Serif", "Iowan Old Style", Georgia, serif;
   --font-ui: "Syne", "Futura", system-ui, sans-serif;
@@ -697,14 +697,14 @@ body.home nav .links a:hover { color: var(--dust); }
   object-position: 52% 42%;
   transform: scale(1.08);
   animation: orbit-drift 42s ease-in-out infinite alternate;
-  filter: contrast(1.08) saturate(0.72);
+  filter: contrast(0.98) saturate(1.05) sepia(0.12);
 }
 .hero-veil {
   position: absolute;
   inset: 0;
   z-index: 1;
   background:
-    linear-gradient(180deg, rgba(11,9,8,0.22) 0%, rgba(11,9,8,0.06) 40%, rgba(11,9,8,0.62) 76%, #0b0908 100%);
+    linear-gradient(180deg, rgba(16,14,10,0.12) 0%, rgba(16,14,10,0.02) 42%, rgba(16,14,10,0.55) 78%, #100e0a 100%);
   pointer-events: none;
 }
 .hero-grain {
@@ -712,7 +712,7 @@ body.home nav .links a:hover { color: var(--dust); }
   inset: 0;
   z-index: 2;
   pointer-events: none;
-  opacity: 0.2;
+  opacity: 0.12;
   mix-blend-mode: overlay;
   background-image: url("images/grain.png");
   background-size: 160px 160px;
