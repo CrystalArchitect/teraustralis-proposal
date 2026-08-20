@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Syne:wght@500;600;700;800&display=swap");
 
 :root {
-  --bg: #07040a;
-  --bg-alt: #10080c;
-  --panel: rgba(16, 9, 12, 0.78);
-  --border: rgba(212, 160, 84, 0.22);
-  --hematite: #c45c2a;
-  --dust: #d4a054;
-  --ember: #f3e6d0;
-  --red-dust: #c45c2a;
-  --red-dust-bright: #e8c48a;
-  --star: #f6efe4;
-  --star-dim: #cbbba4;
-  --star-faint: #8a7a68;
-  --void: #07040a;
+  --bg: #0b0908;
+  --bg-alt: #14110e;
+  --panel: rgba(22, 18, 16, 0.82);
+  --border: rgba(196, 176, 138, 0.22);
+  --hematite: #a85a38;
+  --dust: #c4b08a;
+  --ember: #e6e0d6;
+  --red-dust: #a85a38;
+  --red-dust-bright: #d4c4a8;
+  --star: #e8e4dc;
+  --star-dim: #b8b0a4;
+  --star-faint: #7a7368;
+  --void: #0b0908;
   --max-w: 920px;
   --font-serif: "Instrument Serif", "Iowan Old Style", Georgia, serif;
   --font-ui: "Syne", "Futura", system-ui, sans-serif;
@@ -688,7 +688,7 @@ body.home nav .links a:hover { color: var(--dust); }
   inset: 0;
   z-index: 0;
   overflow: hidden;
-  background: #07040a;
+  background: #0b0908;
 }
 .hero-media img {
   width: 100%;
@@ -697,18 +697,29 @@ body.home nav .links a:hover { color: var(--dust); }
   object-position: 52% 42%;
   transform: scale(1.08);
   animation: orbit-drift 42s ease-in-out infinite alternate;
+  filter: contrast(1.08) saturate(0.72);
 }
 .hero-veil {
   position: absolute;
   inset: 0;
   z-index: 1;
   background:
-    linear-gradient(180deg, rgba(7,4,10,0.08) 0%, rgba(7,4,10,0.04) 42%, rgba(7,4,10,0.55) 78%, #07040a 100%);
+    linear-gradient(180deg, rgba(11,9,8,0.22) 0%, rgba(11,9,8,0.06) 40%, rgba(11,9,8,0.62) 76%, #0b0908 100%);
   pointer-events: none;
+}
+.hero-grain {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.2;
+  mix-blend-mode: overlay;
+  background-image: url("images/grain.png");
+  background-size: 160px 160px;
 }
 .hero-cinema .wrap {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   padding-bottom: 8px;
 }
 .hero-cinema .eyebrow {
@@ -755,7 +766,7 @@ body.home nav .links a:hover { color: var(--dust); }
 }
 .scroll-cue {
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   left: 50%;
   bottom: 22px;
   transform: translateX(-50%);
