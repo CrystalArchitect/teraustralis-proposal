@@ -5,17 +5,20 @@
 It is **not**:
 
 - a minted DOI
-- an ISSN
+- an ISSN **for this sitting** (none assigned — do not invent `0000-0000`)
 - peer review
 - CARE compliance
 - a substitute for [review.html](https://proposal.teraustralis.com.au/review.html)
 
-Canonical page remains the HTML sitting. This file names the same object so a stranger can parse title, author, date, rights, and the three references we actually opened.
+ISSNs that **are** in the XML belong to **cited journals**, verified on the ISSN portal:
 
-Validate well-formedness:
+- *Data Science Journal* — [1683-1470](https://portal.issn.org/resource/ISSN/1683-1470)
+- *Remote Sensing of Environment* — print [0034-4257](https://portal.issn.org/resource/ISSN/0034-4257), online [1879-0704](https://portal.issn.org/resource/ISSN/1879-0704)
+
+A DTD that requires `<issn>` on `<journal-meta>` will still fail. That is correct: this is not a serial. To become one, apply through [ISSN Australia / NLA](https://www.nla.gov.au/collections/what-we-collect/journals), then put the assigned number here.
+
+Canonical page remains the HTML sitting.
 
 ```bash
 python3 -c "import xml.etree.ElementTree as ET; ET.parse('jats/review-pack.xml'); print('well-formed')"
 ```
-
-Full DTD/XSD validation needs the NISO JATS 1.3 article DTD; we do not vendor it here.
