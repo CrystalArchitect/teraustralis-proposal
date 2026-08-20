@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Syne:wght@500;600;700;800&display=swap");
 
 :root {
-  --bg: #0a1018;
-  --bg-alt: #121820;
-  --panel: rgba(12, 18, 28, 0.84);
-  --border: rgba(196, 60, 50, 0.22);
-  --hematite: #c43c32;
-  --dust: #d8c8a0;
-  --ember: #eef2f8;
-  --red-dust: #c43c32;
-  --red-dust-bright: #e8d8b0;
-  --star: #eef2f8;
-  --star-dim: #a8b4c4;
-  --star-faint: #6a7484;
-  --void: #0a1018;
+  --bg: #140c10;
+  --bg-alt: #1c1216;
+  --panel: rgba(28, 16, 20, 0.84);
+  --border: rgba(196, 132, 64, 0.24);
+  --hematite: #a84a3a;
+  --dust: #d4a06a;
+  --ember: #f0e4d4;
+  --red-dust: #a84a3a;
+  --red-dust-bright: #e8c49a;
+  --star: #f0e4d4;
+  --star-dim: #c4a894;
+  --star-faint: #7a645c;
+  --void: #140c10;
   --max-w: 920px;
   --font-serif: "Instrument Serif", "Iowan Old Style", Georgia, serif;
   --font-ui: "Syne", "Futura", system-ui, sans-serif;
@@ -688,7 +688,7 @@ body.home nav .links a:hover { color: var(--dust); }
   inset: 0;
   z-index: 0;
   overflow: hidden;
-  background: #0a1018;
+  background: #140c10;
 }
 .hero-media img {
   width: 100%;
@@ -697,14 +697,14 @@ body.home nav .links a:hover { color: var(--dust); }
   object-position: 52% 42%;
   transform: scale(1.08);
   animation: orbit-drift 42s ease-in-out infinite alternate;
-  filter: contrast(1.1) saturate(0.85);
+  filter: contrast(0.96) saturate(0.92);
 }
 .hero-veil {
   position: absolute;
   inset: 0;
   z-index: 1;
   background:
-    linear-gradient(180deg, rgba(10,16,24,0.22) 0%, rgba(10,16,24,0.06) 40%, rgba(10,16,24,0.78) 78%, #0a1018 100%);
+    linear-gradient(180deg, rgba(20,12,16,0.2) 0%, rgba(20,12,16,0.06) 42%, rgba(20,12,16,0.74) 78%, #140c10 100%);
   pointer-events: none;
 }
 .hero-grain {
