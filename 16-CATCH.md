@@ -66,7 +66,7 @@ Juukan Gorge (May 2020) remains the named warning: acting within the then-legal 
 - A copy of a US environmental waiver
 - Orbital compute as a substitute for ground catch (see orbital.html)
 - Surgical robots, Terafab, or any third-party product as a TerAustralis facility
-- Partnership marks (xAI, SpaceX, NASA, Telstra) as endorsement — see https://x.ai/legal/brand-guidelines
+- Partnership marks as endorsement
 
 ## 7. Interfaces
 
