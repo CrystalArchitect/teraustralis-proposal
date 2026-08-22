@@ -29,6 +29,16 @@ If a place is named for industrial work, Traditional Owners first. Document 16 �
 
 Spirits of the dead returning in low cloud, and later readings of 1770 sails, appear in some public Dharawal commentary. They are cited as that commentary. They are not a launch metaphor.
 
+## 2.1 Burriburri — where the public telling lives
+
+The full public telling is Raymond Ingrey’s, as taught to him. Read it there, not here.
+
+- Gujaga Foundation: https://gujaga.org.au/burriburri
+- ABC Deep Time Australia — Knowledge Holder: Raymond Ingrey — https://www.abc.net.au/news/deeptime/burriburri-whale-dreaming/
+
+Landscape names that appear in those public tellings (Gangmangang / Windang Island; Kamay / Botany Bay; the Illawarra coast) remain their geography. This sitting does not retell the journey, the vessel, or the transformations. Catch (recover, refurbish, fuel) is not this story.
+
+
 ## 3. Sydney Basin engravings (public facts)
 
 The Basin holds one of the densest concentrations of Aboriginal petroglyphs in Australia — on the order of two thousand recorded open engraving sites plus shelter pigment sites. Most locations remain unpublished to protect them and because they are sacred. This sitting will not list them.
