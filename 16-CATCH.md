@@ -56,7 +56,14 @@ Sonic boom, debris, downrange safety, and environmental law are the body of catc
 
 The Pilbara carries cultural heritage under custodianship of Traditional Owners and native title holders. No site selection, survey, construction, or catch-related works described here proceeds over an identified sacred site or songline path without Free, Prior and Informed Consent.
 
-Legal floor, not ceiling: *Aboriginal Heritage Act 1972* (WA); *Native Title Act 1993* (Cth). This brief does not identify or describe any specific sacred site or songline.
+Legal floor, not ceiling. These are different machines:
+
+- *Native Title Act 1993* (Cth) — recognition, not a grant of freehold. The “right to negotiate” is not FPIC. Minerals are usually Crown.
+- *Aboriginal Heritage Act 1972* (WA) — heritage, not title. Restored 15 November 2023 after repeal of the 2021 Act.
+- *Aboriginal Land Rights (Northern Territory) Act 1976* — inalienable freehold; land-council consent for leases. Arnhem is this machine.
+- *Aboriginal Land Rights Act 1983* (NSW) — LALC compensation freehold, distinct from native title. Sydney axis: Document 06.
+
+This brief does not identify or describe any specific sacred site or songline. “Streamline Indigenous consultations” is not the policy of this brief.
 
 Juukan Gorge (May 2020) remains the named warning: acting within the then-legal minimum was not an adequate standard. Document 06 holds the same floor.
 

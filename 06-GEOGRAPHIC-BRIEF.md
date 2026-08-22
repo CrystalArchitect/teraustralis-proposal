@@ -25,7 +25,7 @@ The Pilbara carries some of the oldest continuously-held cultural heritage on Ea
 
 This is stated explicitly because the region's own recent history makes the cost of getting it wrong concrete: in May 2020, Rio Tinto destroyed the 46,000-year-old Juukan Gorge rock shelters in the Pilbara, sacred to the Puutu Kunti Kurrama and Pinikura peoples, while acting within the law as it then stood. The subsequent parliamentary inquiry found the existing legal minimum was not an adequate standard. This project holds itself to a higher one than legal compliance alone.
 
-Practically, this means: independent Aboriginal cultural heritage survey before any site is finalised, Traditional Owner-controlled assessment processes (not proponent-controlled ones), and native title and heritage consultation run under the Aboriginal Heritage Act 1972 (WA) and the Native Title Act 1993 (Cth) as a floor, not a ceiling. This brief does not identify or describe any specific sacred site or songline — that knowledge belongs to its custodians, not to this document.
+Practically, this means: independent Aboriginal cultural heritage survey before any site is finalised, Traditional Owner-controlled assessment processes (not proponent-controlled ones), and native title and heritage consultation run under the Aboriginal Heritage Act 1972 (WA) and the Native Title Act 1993 (Cth) as a floor, not a ceiling. FPIC is not the Native Title “right to negotiate.” Native title does not usually carry the mineral estate. “Streamline Indigenous consultations” (the author’s May 2026 SpaceNews op-ed) is not the policy of this brief. This brief does not identify or describe any specific sacred site or songline — that knowledge belongs to its custodians, not to this document.
 
 ---
 
@@ -50,7 +50,7 @@ It is a **different job** from Pilbara / Port Hedland. Pilbara is recovery, feed
 
 Proposed Phase 1 envelope **150–250 MW** is a planning range, not a contracted load. Cooling from recycled / treated water, not drinking supply. Grid conversation via Sydney West. No site inside the precinct is selected here.
 
-Heritage floor for this axis is NSW: *National Parks and Wildlife Act 1974* (NSW) and the *Native Title Act 1993* (Cth), plus Free, Prior and Informed Consent from the relevant Traditional Owners before any physical works. This brief names no specific sacred site or songline.
+Heritage floor for this axis is NSW: *National Parks and Wildlife Act 1974* (NSW); *Aboriginal Land Rights Act 1983* (NSW) (Local Aboriginal Land Councils — compensation freehold, a different body from native title holders); and the *Native Title Act 1993* (Cth), plus Free, Prior and Informed Consent from the relevant Traditional Owners before any physical works. This brief names no specific sacred site or songline.
 
 ---
 

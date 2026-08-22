@@ -44,7 +44,7 @@ Each layer states what exists in Australia today, what the southern node adds, a
 
 ### 5. Launch & Recovery — the layer already argued
 
-**Today:** deep-water ports, heavy industry, DARC in the Pilbara, and the May 2026 SpaceNews analysis discussing Starship recovery off Australian coasts specifically.
+**Today:** deep-water ports, heavy industry, DARC (Exmouth / Gascoyne, not the Pilbara — Document 08), and the author’s May 2026 SpaceNews op-ed on Starship recovery — cited as an op-ed, not as outside reporting.
 **The node adds:** the core proposal — recovery, refurbishment, feedstock, and energy substrate. Documents 06 and 08 carry it; nothing new is claimed here.
 **Status:** proposed — the document set's centre of gravity.
 

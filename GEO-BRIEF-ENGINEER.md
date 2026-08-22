@@ -46,7 +46,7 @@ The Great Artesian Basin covers ~1.7 million km²; recharge is slow and localise
 
 ## 7. Free, Prior and Informed Consent is a hard door
 
-No site selection, survey, construction, or testbed work proceeds over an identified sacred site or songline path without FPIC from the relevant Traditional Owners, in advance. Floor: Aboriginal Heritage Act 1972 (WA) and Native Title Act 1993 (Cth). Ceiling: higher than the legal minimum — Juukan Gorge (May 2020) is why. This brief names no specific sacred site.
+No site selection, survey, construction, or testbed work proceeds over an identified sacred site or songline path without FPIC from the relevant Traditional Owners, in advance. Floor: Aboriginal Heritage Act 1972 (WA); Native Title Act 1993 (Cth); on the Sydney axis also Aboriginal Land Rights Act 1983 (NSW) and National Parks and Wildlife Act 1974 (NSW). FPIC is not the Native Title right to negotiate. Ceiling: higher than the legal minimum — Juukan Gorge (May 2020) is why. This brief names no specific sacred site.
 
 **Belt:** docs-gov.
 
