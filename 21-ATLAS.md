@@ -2,7 +2,7 @@
 
 **Status:** project art · provisional · not a map of Country · not a homepage item  
 **Date:** 22 August 2026  
-**Placement:** proposal only, `noindex`. No images on this page.
+**Placement:** proposal only, `noindex`. Raster plates unpublished. Sitting SVG on the HTML.
 
 ## 0. Status
 
@@ -12,7 +12,7 @@ Starlines remain this project’s own coinage (Document 20). The compass is the 
 
 ## 1. What this is
 
-Art for an industrial sitting: bearings, loops, failure, return. Usable only after the corrections in §4. Until then the files stay off www and off this page.
+Art for an industrial sitting: bearings, loops, failure, return. Raster plates stay unpublished until they pass §4. The SVG in §8 is the sitting instrument: compass, south-up Australia, no get-up.
 
 ## 2. Plate register (no images)
 
@@ -87,7 +87,7 @@ Those three are the usable instrument. The rest of Plate VII (inverted rockets, 
 2. **No Dreamlines.** Rename Plate IV and the cover line. Starlines only, as this project’s word. Songlines stay with custodians.
 3. **Globe.** If a globe appears, Australia and south must be readable as the ground of this sitting. A red Americas is not Red Dust Ground.
 4. **No third-party marks.** Do not publish files that carry a Grok watermark on www or proposal. Get-up is not nominative use (NOTICE).
-5. **No images on this brief** until a corrected set exists. This page is the register, not a gallery.
+5. **No raster plates on this brief.** Generated files stay unpublished (any channel). The SVG in §8 is the sitting instrument: compass, south-up Australia, no get-up.
 6. **Legal name: Gilmour.** Gilmore is a plate error, not an alternate. Do not copy it. Do not wear their vehicle or pad. A picture of that stack is get-up, not a name.
 
 
@@ -111,3 +111,18 @@ Gold is the grid. The dark is still Country.
 ## 7. One sentence
 
 The atlas is a compass with failure modes. It is not Country, and it is not finished until rockets, Dreamlines, the wrong globe, and the watermark are off the plate.
+
+## 8. Sitting instrument
+
+Built on `21-atlas.html`. Not a photograph of a pad. Not a third-party vehicle.
+
+South at the top. Australia at the centre, Tasmania toward south. Rim labels: closed myth, identity fusion, red-dust ground.
+
+Caption (locked):
+
+- Land every starline in red dust.
+- Keep the instrument provisional.
+- Prefer ordinary evidence.
+- What ordinary evidence would still be true if the entire story was wrong?
+
+The generated parchment is still unpublished. This SVG is what was built here.

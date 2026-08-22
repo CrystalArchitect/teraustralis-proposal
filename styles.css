@@ -674,6 +674,29 @@ footer .rights {
 }
 .map-plate { box-shadow: 0 10px 34px rgba(0, 0, 0, 0.45); }
 
+.atlas-rose-wrap {
+  margin: 1.25rem 0 0.5rem;
+  padding: 0;
+}
+.atlas-rose {
+  width: 100%;
+  max-width: 28rem;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.atlas-rose-caption {
+  text-align: center;
+  max-width: 28rem;
+  margin: 0.85rem auto 0;
+}
+.atlas-rose-caption p { margin: 0.2rem 0; }
+.atlas-rose-caption .atlas-rose-q {
+  font-style: italic;
+  color: var(--dust);
+  margin-top: 0.85rem;
+}
+
 
 
 body.home {
