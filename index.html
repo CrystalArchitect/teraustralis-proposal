@@ -10,7 +10,6 @@
 <meta property="og:title" content="TerAustralis Incognita">
 <meta property="og:image" content="https://proposal.teraustralis.com.au/images/map-australia-night.jpg">
 <style>
-  body.home .links a { font-size: 0.75rem; }
   .bleed-map { margin: 0; background: #0b0c10; }
   .bleed-map img { display: block; width: 100%; height: auto; }
   .bleed-map figcaption {
@@ -20,7 +19,7 @@
     font-size: 0.95rem;
     letter-spacing: 0.02em;
   }
-  .house { max-width: 38rem; margin: 0 auto; padding: 40px 24px 72px; }
+  .house { max-width: 38rem; margin: 0 auto; padding: 40px 24px 48px; }
   .house h1 {
     font-size: clamp(2rem, 6vw, 3.4rem);
     line-height: 1.02;
@@ -28,41 +27,33 @@
     font-weight: 700;
   }
   .house p { font-size: 1.08rem; line-height: 1.55; color: #3d3a36; }
-  .quiet {
-    margin-top: 40px;
-    font-size: 0.78rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #5c5852;
-  }
-  .quiet a { color: #1a1a1a; text-decoration: none; margin-right: 1.4em; }
-  .quiet a:hover { text-decoration: underline; }
 </style>
 </head>
 <body class="home">
-<nav>
+<a class="skip" href="#main">Skip to content</a>
+<nav aria-label="Site">
   <div class="wrap">
-    <a class="brand" href="index.html">Ter<strong>Australis</strong> Incognita</a>
+    <a class="brand" href="index.html" aria-current="page">Ter<strong>Australis</strong> Incognita</a>
     <div class="links">
-      <a href="catch.html">Catch</a>
+      <a href="16-catch.html">Catch</a>
       <a href="job.html">The job</a>
-      <a href="orbital.html">Orbit</a>
+      <a href="review.html">Sitting</a>
     </div>
   </div>
 </nav>
-<figure class="bleed-map">
+<figure class="bleed-map" id="main" tabindex="-1">
   <img src="images/map-australia-night.jpg" width="1920" height="1427" alt="Australia at night — NASA Black Marble, Suomi NPP VIIRS, 2016 composite.">
   <figcaption>Gold is the grid. The dark is still Country.</figcaption>
 </figure>
 <div class="house">
   <h1>TerAustralis Incognita</h1>
   <p>Catch what we throw. Think here. Analogue on this continent — recovery, refurb, fuel as a job, not a film still. Berth not selected. Country first.</p>
-  <p class="quiet">
-    <a href="catch.html">Catch</a>
-    <a href="ambition.html">Ambition</a>
-    <a href="orbital.html">Orbit</a>
-    <a href="review.html">Sitting</a>
-  </p>
 </div>
+<footer>
+  <div class="wrap">
+    <div class="mantra">Non Solus</div>
+    <p class="rights">All rights reserved. View only. TerAustralis Incognita™ — ABN 70 741 068 059</p>
+  </div>
+</footer>
 </body>
 </html>
