@@ -21,7 +21,7 @@ Each site has its own land, its own custodians, its own legal pathway. Consent, 
 
 Recovery, refurbishment, feedstock, and energy substrate. Deep-water port and heavy industry already exist; the question is orientation, not greenfield build. Covered in full in [06-GEOGRAPHIC-BRIEF.md](06-GEOGRAPHIC-BRIEF.md) and pitched in [08-SPACEX-XAI-ONE-PAGER.md](08-SPACEX-XAI-ONE-PAGER.md), including the Cultural Heritage & Consent section governing any site-specific work there.
 
-This is the only site currently backed by outside public reporting (the May 2026 SpaceNews analysis) discussing Starship recovery and Pilbara infrastructure specifically.
+This is the active recovery axis. The founder’s SpaceNews op-ed (Arena-Turner, 22 May 2026) argued Starship recovery and Pilbara infrastructure; it is not independent reporting. Lithium share, DARC location, and catch status were later corrected in Documents 08 and 16.
 
 ---
 
