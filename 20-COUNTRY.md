@@ -25,7 +25,8 @@ If a place is named for industrial work, Traditional Owners first. Document 16 �
 | Biame / Baiame | Sky creator in many south-east accounts, including Dharawal; shaped the land, set law, returned to the sky. Collaborative Dharawal publications (Bursill and others) discuss Biame and possible related engravings. | Identify a specific unpublished figure as “the” Biame of this sitting. |
 | Burriburri | Whale dreaming as told by Raymond Ingrey (Dharawal, La Perouse), taught to him, published via Gujaga Foundation and ABC Deep Time. A large whale-and-calf engraving at La Perouse is named in that telling. | Retell the vessel story as project lore. |
 | Seasonal calendar | Dr Frances (Fran) Bodkin’s D’harawal seasons and cycles: plants, animals, weather, movement on Country. Public poster and later illustration work exist. | Treat the calendar as a TerAustralis operations timetable. |
-| Pleiades / Seven Sisters | Present in Sydney Basin / Thurrawal–Dharawal public notes (spring, plants). The wider Seven Sisters Songlines are living and belong to their custodians. Local public elaboration is thinner than some desert records. | Complete or fuse those Songlines. “Starlines” is this project’s own coinage and is not a Songline. |
+| Pleiades / Seven Sisters | Present in a thin Sydney Basin literature chain (Bursill via Turner 2014, reported by Fuller et al.): evening rising associated with spring and plant change. Wider Seven Sisters Songlines belong to their custodians. | Complete or fuse those Songlines. Import Arnhem Wawalag/Wagilag. Starlines is this project’s own coinage. See §2.4. |
+
 
 Spirits of the dead returning in low cloud, and later readings of 1770 sails, appear in some public Dharawal commentary. They are cited as that commentary. They are not a launch metaphor.
 
@@ -67,6 +68,21 @@ Published spellings vary (Gooray’murrai / Goray’murrai; Murrai’yunggory / 
 
 Public excerpts also carry camp, fire, and food cautions. Those belong to the calendar and its holders. This sitting does not teach them and does not run Catch or CrystalCore on this timetable. Stars are not in the public season excerpts cited here; the Pleiades row in §2 stays a separate, thinner local note.
 
+## 2.4 Local Pleiades record (thin)
+
+This is the thinnest public thread on this page. It is not a Songline.
+
+**What is general, not Dharawal-specific.** Across many Aboriginal cultures the Pleiades are a group of sisters. Central and western desert Songlines (including Kungkarangkalpa / Minyipuru) are living and belong to their custodians. Wurundjeri have a different public sister-story (Karatgurk). None of those are this sitting’s to complete or fuse. Starlines remains this project’s own coinage.
+
+**What the Sydney Basin literature actually cites.** Fuller and colleagues, in a preliminary study of Sydney Basin astronomical knowledge, report Turner (2014) reporting Les Bursill: for Dharawal people, the rising of some star groups — Pleiades, the Orion group, and Aldebaran — coincides with plant flowering, temperature change, and fruit. Bursill is also reported as saying the evening rising of the Pleiades heralds spring.
+
+That is a second-hand public chain (Bursill → Turner 2014 → Fuller et al.). It is not a map of Country. It is not a ceremony. Bodkin’s public season excerpts cited in §2.3 do not name the Pleiades.
+
+**Name collision — do not copy.** The same secondary report mentions “Wagalag Sisters” in a Dharawal spring context. Wawalag / Wagilag / Wagalak sisters are ancestral beings of Arnhem Land (Yolngu). That is a different Country. This sitting does not attach that name to Dharawal land or to the Pleiades here.
+
+**We do not** identify unpublished engravings as the Seven Sisters, import desert Songlines, or treat evening rising as a TerAustralis calendar.
+
+
 
 
 
@@ -100,6 +116,8 @@ We do not publish a site map. We do not use Jibbon as a Catch or Starline plate.
 
 - NSW NPWS — Jibbon conservation and coastal engravings, Royal National Park.
 - Public archaeology of the Sydney Basin Simple Figurative style (including Jo McDonald’s published synthesis).
+- Fuller and colleagues — preliminary study of Sydney Basin Aboriginal astronomy; Turner (2014) reporting Bursill on Pleiades / Orion / Aldebaran and spring. Second-hand. Wagalag/Wawilak not applied to this Country.
+
 
 If a holder has not put a thing in public, it is not in this brief.
 
