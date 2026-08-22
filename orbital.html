@@ -6,33 +6,29 @@
 <title>Orbital compute — TerAustralis Incognita</title>
 <meta name="description" content="Orbital compute architectures: layers, physics, filings versus flying. TerAustralis cites. It does not wear a terawatt.">
 <link rel="stylesheet" href="styles.css">
-<style>
-  body.home .wrap { max-width: 42rem; }
-  body.home table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 8px 0 24px; }
-  body.home th, body.home td { border: 1px solid rgba(26,26,26,0.15); padding: 10px 12px; text-align: left; vertical-align: top; }
-  body.home th { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: #8b4512; }
-  body.home h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 0 0 12px; }
-  .stack { display: grid; gap: 1px; background: rgba(26,26,26,0.12); border: 1px solid rgba(26,26,26,0.15); margin: 20px 0 28px; }
-  .stack div { background: #f8f5f0; padding: 14px 16px; }
-  .stack strong { display: block; font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: #8b4512; margin-bottom: 4px; }
-  .ours { background: #fff !important; border-left: 3px solid #8b4512; }
-</style>
+<link rel="canonical" href="https://proposal.teraustralis.com.au/orbital.html">
 </head>
-<body class="home">
-<nav>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<nav aria-label="Site">
   <div class="wrap">
     <a class="brand" href="index.html">Ter<strong>Australis</strong> Incognita</a>
     <div class="links">
-      <a href="ambition.html">Ambition</a>
+      <a href="16-catch.html">Catch</a>
+      <a href="job.html" aria-current="page">The job</a>
       <a href="review.html">Sitting</a>
     </div>
   </div>
 </nav>
+<header class="pitch-header" id="main" tabindex="-1">
+  <div class="wrap">
+    <div class="eyebrow">Surveyed · 22 August 2026 · not a facility</div>
+    <h1>Orbital compute architectures</h1>
+    <p class="lede">Orbital compute is not one machine. It is a stack of proposed layers, a thermal problem, and a set of filings. This sitting cites that stack. It does not claim a satellite, a terawatt, or Terafab.</p>
+  </div>
+</header>
 <section>
   <div class="wrap">
-    <p class="paper-copy"><span class="eyebrow">Surveyed · 22 August 2026 · not a facility</span></p>
-    <h1>Orbital compute architectures</h1>
-    <p>Orbital compute is not one machine. It is a stack of proposed layers, a thermal problem, and a set of filings. This sitting cites that stack. It does not claim a satellite, a terawatt, or Terafab.</p>
     <h2>The stack</h2>
     <div class="stack">
       <div><strong>1 · On-orbit edge</strong> Infer on the spacecraft so raw sensor bits do not all come home. Starcloud-1 (November 2025) carried an Nvidia H100. Public engineering note: the radiator was too weak for full power.</div>
@@ -47,17 +43,19 @@
     <p>A one-megawatt orbital box needs on the order of a hockey-rink of radiator at modest chip temperatures (World Economic Forum / Starcloud paper, 2026). The ISS rejects about 70 kW with tonnes of radiator. Scale that to a megawatt and the radiators can outweigh the GPUs. Run chips hotter: smaller area, worse leakage and errors. That is the trade. “Space is free cooling” is not an architecture.</p>
     <p>Also binding: total-dose and single-event radiation; eclipse versus sun-synchronous power; optical downlink as a pipe, not a brain; servicing; debris; spectrum. Launch mass dominates cost until cadence collapses it. Europe’s ASCEND study: the climate ledger only begins to work if launch is about ten times cleaner.</p>
     <h2>Surveyed record (not ours)</h2>
-    <table>
-      <thead><tr><th>Item</th><th>What it is</th><th>What it is not</th></tr></thead>
-      <tbody>
-        <tr><td>Starcloud-1</td><td>First H100 class GPU flown (Nov 2025)</td><td>A data centre</td></tr>
-        <tr><td>Starcloud FCC</td><td>Up to 88,000 compute satellites proposed</td><td>Authority to occupy the south</td></tr>
-        <tr><td>SpaceX FCC</td><td>Up to 1,000,000 orbital data-centre satellites proposed (Jan 2026)</td><td>A southern node</td></tr>
-        <tr><td>Davos 2026 claim</td><td>Lowest-cost AI in space in two to three years</td><td>A completed thermal design</td></tr>
-        <tr><td>NSPM-17 (20 Aug 2026)</td><td>1,000 US launches and reentries a year by 2030</td><td>Australian cadence</td></tr>
-        <tr><td>Terafab / D3 (public)</td><td>Earth plant for orbital and vehicle silicon</td><td>Pilbara. Not this sitting</td></tr>
-      </tbody>
-    </table>
+    <div class="table-scroll">
+      <table class="compare-table">
+        <thead><tr><th>Item</th><th>What it is</th><th>What it is not</th></tr></thead>
+        <tbody>
+          <tr><td>Starcloud-1</td><td>First H100 class GPU flown (Nov 2025)</td><td>A data centre</td></tr>
+          <tr><td>Starcloud FCC</td><td>Up to 88,000 compute satellites proposed</td><td>Authority to occupy the south</td></tr>
+          <tr><td>SpaceX FCC</td><td>Up to 1,000,000 orbital data-centre satellites proposed (Jan 2026)</td><td>A southern node</td></tr>
+          <tr><td>Davos 2026 claim</td><td>Lowest-cost AI in space in two to three years</td><td>A completed thermal design</td></tr>
+          <tr><td>NSPM-17 (20 Aug 2026)</td><td>1,000 US launches and reentries a year by 2030</td><td>Australian cadence</td></tr>
+          <tr><td>Terafab / D3 (public)</td><td>Earth plant for orbital and vehicle silicon</td><td>Pilbara. Not this sitting</td></tr>
+        </tbody>
+      </table>
+    </div>
     <h2>Why the sitting still holds</h2>
     <p>Earth data centres are hitting power, water and permits. Orbit sells continuous solar and no cooling towers. The integrated United States play is silicon, launch, model, and network in one stack. That may or may not close. Either way, tokens in LEO do not replace a brain that still works when the link is twenty minutes or gone.</p>
     <p>Iowa is postage. A million satellites on a form are not sovereignty. If the stack flies, the industrial question for this continent is unchanged: who catches, who refurbs, who fuels, and whose Country the concrete sits on.</p>
@@ -65,5 +63,17 @@
     <p class="source-link">Gold is the grid. The dark is still Country.</p>
   </div>
 </section>
+<div class="wrap">
+  <div class="doc-nav">
+    <a href="ambition.html">← Ambition</a>
+    <a class="next" href="16-catch.html">Catch →</a>
+  </div>
+</div>
+<footer>
+  <div class="wrap">
+    <div class="mantra">Non Solus</div>
+    <p class="rights">All rights reserved. View only. TerAustralis Incognita™ — ABN 70 741 068 059</p>
+  </div>
+</footer>
 </body>
 </html>

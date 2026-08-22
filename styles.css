@@ -23,6 +23,29 @@
 
 html { scroll-behavior: smooth; }
 
+.skip {
+  position: absolute;
+  left: 12px;
+  top: -48px;
+  z-index: 40;
+  background: var(--bg);
+  color: var(--ember);
+  padding: 8px 12px;
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  text-decoration: none;
+  border: 1px solid var(--border);
+}
+.skip:focus {
+  top: 12px;
+  outline: 2px solid var(--hematite);
+  outline-offset: 2px;
+}
+#main:focus { outline: none; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
 body {
   margin: 0;
   background-color: var(--bg);
@@ -75,11 +98,17 @@ nav .links a {
   color: var(--star-dim);
   text-decoration: none;
   font-size: 0.85rem;
-  margin-left: 24px;
+  margin-left: 16px;
+  padding: 8px 4px;
+  min-height: 44px;
+  min-width: 24px;
+  display: inline-flex;
+  align-items: center;
   font-family: var(--font-ui);
   letter-spacing: 0.04em;
 }
 nav .links a:hover { color: var(--ember); }
+nav .links a[aria-current="page"] { color: var(--ember); }
 
 /* Hero */
 .hero {
@@ -568,6 +597,32 @@ footer .rights {
 .compare-table tr.is-ours { background: rgba(217, 169, 79, 0.09); }
 .table-scroll { overflow-x: auto; }
 
+.stack {
+  display: grid;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin: 20px 0 28px;
+}
+.stack > div {
+  background: var(--panel);
+  padding: 14px 16px;
+  color: var(--star-dim);
+}
+.stack strong {
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--dust);
+  margin-bottom: 4px;
+}
+.stack .ours {
+  border-left: 3px solid var(--hematite);
+  color: var(--star);
+}
+
 .map-rule {
   display: flex;
   align-items: center;
@@ -716,7 +771,14 @@ body.home nav {
 }
 body.home nav .brand,
 body.home nav .links a { color: #1a1a1a; text-shadow: none; }
-body.home nav .links a:hover { color: #8b4512; }
+body.home nav .links a:hover,
+body.home nav .links a[aria-current="page"] { color: #8b4512; }
+body.home .brand[aria-current="page"] strong { color: #8b4512; }
+body.home .skip {
+  background: #f8f5f0;
+  color: #1a1a1a;
+  border-color: rgba(26,26,26,0.12);
+}
 body.home h1, body.home h2, body.home h3 { color: #1a1a1a; }
 body.home p, body.home li { color: #3d3a36; }
 body.home .card {
