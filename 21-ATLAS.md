@@ -25,8 +25,22 @@ Art for an industrial sitting: bearings, loops, failure, return. Usable only aft
 | VI | Recursive loops | Open cycles. Origin rose fixed. Not destiny. | Close the loops into fate. |
 | VII | Failure modes | See §3 | Treat OCR junk (*muth*, *WHINE*, *A1°*) as doctrine. |
 | VIII | Return vectors | Home as Earth. Catch as return work. | Make the rocket the instrument. Inherit a pad. |
+| IX | Asymmetric leverage | A few bearings do most of the work (80/20 as a chart). Does not name *which* few. | Treat garbled rays as a real lever list. |
+| X | Second-order consequences | Shape of cascade: 1st → 2nd → 3rd. Document 19. | Treat lightning labels (`1sd`, `19rd`, `41°`) as a prediction ledger. |
+| XI | The Cool Air of the Ordinary | Caption holds: “What ordinary evidence would still be true if the entire story was wrong?” Document 19 in one line. | Treat the red Americas globe as that evidence. |
 
-Spreads A–D are those plates bound as facing pages. They add no new objects.
+Spreads are bindings. They add no new objects.
+
+| Spread | Pair |
+|---|---|
+| A | Master rose + launch vector |
+| B | III + IV |
+| C | Master rose + V |
+| D | VI + VIII |
+| E | IX + X |
+| F | X + XI |
+| G | IX + XI |
+
 
 ## 3. Failure modes that hold (Plate VII)
 
@@ -58,7 +72,7 @@ Gold is the grid. The dark is still Country.
 
 - Homepage or header on www.teraustralis.com.au
 - Animation of these files
-- Extra plates until §4 is done
+- Further plates until §4 is done
 - Catch, Gate, or CICH replaced by parchment
 - Partnership or endorsement implied by a watermark
 
