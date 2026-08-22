@@ -73,9 +73,9 @@ Those three are the usable instrument. The rest of Plate VII (inverted rockets, 
 1. **Compass, not rocket.** Rockets are not the instrument. Remove or keep strictly as decoration.
 2. **No Dreamlines.** Rename Plate IV and the cover line. Starlines only, as this project’s word. Songlines stay with custodians.
 3. **Globe.** If a globe appears, Australia and south must be readable as the ground of this sitting. A red Americas is not Red Dust Ground.
-4. **No third-party marks.** Do not publish files that carry a Grok watermark on www or proposal.
+4. **No third-party marks.** Do not publish files that carry a Grok watermark on www or proposal. Get-up is not nominative use (NOTICE).
 5. **No images on this brief** until a corrected set exists. This page is the register, not a gallery.
-6. **Legal name: Gilmour.** Gilmore is a plate error, not an alternate. Do not copy it. Do not wear their vehicle or pad.
+6. **Legal name: Gilmour.** Gilmore is a plate error, not an alternate. Do not copy it. Do not wear their vehicle or pad. A picture of that stack is get-up, not a name.
 
 
 
