@@ -49,14 +49,14 @@ See [LICENSE](LICENSE).
 
 ## Related Public Record
 
-- SpaceNews (22 May 2026): [Leveraging AUKUS and southern geography](https://spacenews.com/leveraging-aukus-and-southern-geography-building-australias-dual-use-space-infrastructure-for-strategic-resilience/)
+- SpaceNews (22 May 2026, **op-ed**): [Leveraging AUKUS and southern geography](https://spacenews.com/leveraging-aukus-and-southern-geography-building-australias-dual-use-space-infrastructure-for-strategic-resilience/) — author’s column, later corrected in this package (lithium share, DARC location, catch).
 - Living technical specifications (separate repository): [crystalcore-os-aeris-vault12](https://github.com/CrystalArchitect/crystalcore-os-aeris-vault12)
 
 ---
 
-**Red Dust → Rockets**  
-**Dreamtime → Starlines**  
-**Consciousness is the payload**  
+**Red dust is ground**  
+**Starlines is this project’s word**  
+**Gold is the grid. The dark is still Country.**  
 **NON SOLUS**
 
 — Crystal Arena-Turner  

@@ -106,8 +106,8 @@ No broad funding request at this stage. First: alignment of physics, geography, 
 
 ---
 
-**Red Dust → Rockets**  
-**Dreamtime → Starlines**  
+**Red dust is ground**  
+**Starlines is this project’s word**  
 **NON SOLUS**
 
 — Crystal Arena-Turner  

@@ -270,8 +270,8 @@ runs. Where this brief proposes, it says proposes.
 
 ---
 
-**Red Dust → Rockets**
-**Dreamtime → Starlines**
+**Red dust is ground**
+**Starlines is this project’s word**
 **NON SOLUS**
 
 — Crystal Arena-Turner
