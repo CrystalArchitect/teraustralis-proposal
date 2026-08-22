@@ -48,6 +48,26 @@ NSW lists Baiame Cave (Hunter Valley, Wonnarua Country) as a heritage place. Tha
 
 Some south-east protocols restrict public use of the name. This sitting uses it only as already published by those named Dharawal collaborators, and as an archaeological type-label (Baiame-type / Daramulan-type). Ceremony is out of scope.
 
+## 2.3 Bodkin seasonal calendar (public teaching)
+
+Dr Frances (Aunty Fran) Bodkin compiled *D’harawal: Seasons and Climatic Cycles* from interviews and writings of Traditional Knowledge holders; Lorraine Robertson illustrated. Public posters and excerpts (including Georges Riverkeeper and Food Fairness Illawarra) carry six seasons. Stories on [dharawalstories.com](https://dharawalstories.com/) are held, per that site, by Gawain Bodkin-Andrews.
+
+The clock is not Gregorian. Public teaching says seasons turn on plant flowering, fruiting, and animal behaviour. Months below are the rough European equivalents used on those posters, not the season itself.
+
+| Time of | Weather name (public) | Rough months (poster) | One public trigger |
+|---|---|---|---|
+| Burrugin (echidna) | Tugarah Tuli — cold, frosty, short days | Jun–Jul | Forest Red Gum (*Eucalyptus tereticornis*) flowers; echidnas in line |
+| Wiritjiribin (lyrebird) | Tugarah Gunya’marri — cold and windy | Jul–Aug | Gossamer Wattle (*Acacia floribunda*); lyrebird calls |
+| Ngoonungi (flying fox) | Murrai’yunggory — cool, getting warmer | Sep–Oct | Waratah buds; flying foxes at dusk |
+| Parra’dowee (eel) | Gooray’murrai — warm and wet | Nov–Dec | Coast Myall (*Acacia binervia*); eels moving downstream |
+| Burran (kangaroo) | Gadalung Marool — hot and dry | Jan–Feb | Hickory Wattle (*Acacia implexa*) |
+| Marraigang (quoll) | Bana’marrai’yung — wet, becoming cooler | Mar–May | Lilly pilly fruit; quoll calls |
+
+Published spellings vary (Gooray’murrai / Goray’murrai; Murrai’yunggory / Murrau’yunggory). Use the book.
+
+Public excerpts also carry camp, fire, and food cautions. Those belong to the calendar and its holders. This sitting does not teach them and does not run Catch or CrystalCore on this timetable. Stars are not in the public season excerpts cited here; the Pleiades row in §2 stays a separate, thinner local note.
+
+
 
 
 ## 3. Sydney Basin engravings (public facts)
@@ -73,7 +93,8 @@ We do not publish a site map. We do not use Jibbon as a Catch or Starline plate.
 ## 5. Named sources we cite
 
 - Raymond Ingrey — Burriburri, as taught; Gujaga Foundation; ABC Deep Time Australia.
-- Dr Frances Bodkin — D’harawal seasons and cycles (public calendar).
+- Dr Frances Bodkin — *D’harawal: Seasons and Climatic Cycles* (illustrated by Lorraine Robertson). Public excerpts: Georges Riverkeeper; Food Fairness Illawarra. Stories: dharawalstories.com (Gawain Bodkin-Andrews named as holder there).
+
 - Les Bursill OAM, with Mary Jacobs, Deborah Lennis, Aunty Beryl Timbery-Beller, Merv Ryan — collaborative Dharawal history of southern Sydney (NLA).
 - NSW Heritage — Baiame Cave (Wonnarua / Hunter), cited only as a different Country. Not a Dharawal plate.
 
