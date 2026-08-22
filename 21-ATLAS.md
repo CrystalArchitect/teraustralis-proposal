@@ -1,0 +1,67 @@
+# Document 21 — Starline Atlas (register)
+
+**Status:** project art · provisional · not a map of Country · not a homepage item  
+**Date:** 22 August 2026  
+**Placement:** proposal only, `noindex`. No images on this page.
+
+## 0. Status
+
+A set of parchment-style plates was generated as **Starline Atlas**. This brief is a register and a correction list. It is not the atlas. It does not publish the files. It does not treat the plates as Songlines, Dreaming, or astronomy of Dharawal Country.
+
+Starlines remain this project’s own coinage (Document 20). The compass is the instrument. Red dust is ground, not a texture overlay on the Americas.
+
+## 1. What this is
+
+Art for an industrial sitting: bearings, loops, failure, return. Usable only after the corrections in §4. Until then the files stay off www and off this page.
+
+## 2. Plate register (no images)
+
+| Plate | Title on the file | What it can mean here | We do not |
+|---|---|---|---|
+| Cover / master rose | Starline Atlas — “Red Dust to Dreamlines” | Compass. Project Starlines. | Wear “Dreamlines”. Fuse Songlines. |
+| III | The Red Dust Ground | Ground first | Treat the red Americas globe as Australia or as Country. |
+| IV | The Dreamline Network | Mesh / lattice as *this project’s* network | Use the word Dreamline. Map unpublished engravings. |
+| V | Complete bearing legend | Ordinary 32-point compass | Read the caption as a Songline key. |
+| VI | Recursive loops | Open cycles. Origin rose fixed. Not destiny. | Close the loops into fate. |
+| VII | Failure modes | See §3 | Treat OCR junk (*muth*, *WHINE*, *A1°*) as doctrine. |
+| VIII | Return vectors | Home as Earth. Catch as return work. | Make the rocket the instrument. Inherit a pad. |
+
+Spreads A–D are those plates bound as facing pages. They add no new objects.
+
+## 3. Failure modes that hold (Plate VII)
+
+Three labels on the cautionary plate are sitting language:
+
+| Label | Means here |
+|---|---|
+| Closed myth | First story crowned. Document 19: write the claim so it can die. |
+| Identity fusion | Armor that cannot flex. Document 18. Do not fuse Burriburri, Biame, Catch, Gate, CICH, or Starlines. |
+| Loss of red-dust ground | Operator leaves local ground. Document 16 job: recover, refurbish, fuel. Document 20: Country is already spoken for. |
+
+Those three are the usable instrument. The rest of Plate VII (inverted rockets, cracked voids, garbled bearings) is decoration until redrawn.
+
+## 4. Corrections required before any reuse
+
+1. **Compass, not rocket.** Rockets are not the instrument. Remove or keep strictly as decoration.
+2. **No Dreamlines.** Rename Plate IV and the cover line. Starlines only, as this project’s word. Songlines stay with custodians.
+3. **Globe.** If a globe appears, Australia and south must be readable as the ground of this sitting. A red Americas is not Red Dust Ground.
+4. **No third-party marks.** Do not publish files that carry a Grok watermark on www or proposal.
+5. **No images on this brief** until a corrected set exists. This page is the register, not a gallery.
+
+## 5. Bound (Document 20)
+
+The atlas does not complete Seven Sisters, Wawalag/Wagilag, Burriburri, or Biame. Turner 2014:24 is plants, not a bearing legend. Evening Pleiades / spring is Fuller 2018 Bursill, not Turner, and is not a plate.
+
+Gold is the grid. The dark is still Country.
+
+## 6. Out of scope
+
+- Homepage or header on www.teraustralis.com.au
+- Animation of these files
+- Extra plates until §4 is done
+- Catch, Gate, or CICH replaced by parchment
+- Partnership or endorsement implied by a watermark
+
+## 7. One sentence
+
+The atlas is a compass with failure modes. It is not Country, and it is not finished until rockets, Dreamlines, the wrong globe, and the watermark are off the plate.

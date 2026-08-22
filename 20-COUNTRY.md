@@ -152,3 +152,6 @@ If a holder has not put a thing in public, it is not in this brief.
 We stand on Country that is already spoken for. Public teaching may be cited. It may not be worn.
 
 Gold is the grid. The dark is still Country.
+
+Next: [Document 21 — Starline Atlas (register)](21-atlas.html)
+
