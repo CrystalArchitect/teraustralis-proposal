@@ -38,6 +38,17 @@ The full public telling is Raymond Ingrey’s, as taught to him. Read it there, 
 
 Landscape names that appear in those public tellings (Gangmangang / Windang Island; Kamay / Botany Bay; the Illawarra coast) remain their geography. This sitting does not retell the journey, the vessel, or the transformations. Catch (recover, refurbish, fuel) is not this story.
 
+## 2.2 Biame — public accounts, not an identification
+
+South-east public accounts of a sky creator (Baiame / Biame / Baayami and related spellings) belong to the peoples who hold them — including Gamilaraay, Wiradjuri, Wonnarua and others. They are not one story and not this sitting’s.
+
+Dharawal public teaching in the collaborative volume by Les Bursill, Mary Jacobs, Deborah Lennis, Aunty Beryl Timbery-Beller and Merv Ryan names Biame as sky spirit creator. We cite that book. We do not retell a creation cycle. We do not identify an unpublished engraving as Biame.
+
+NSW lists Baiame Cave (Hunter Valley, Wonnarua Country) as a heritage place. That is a different Country. It is not a Dharawal plate and not a TerAustralis illustration.
+
+Some south-east protocols restrict public use of the name. This sitting uses it only as already published by those named Dharawal collaborators, and as an archaeological type-label (Baiame-type / Daramulan-type). Ceremony is out of scope.
+
+
 
 ## 3. Sydney Basin engravings (public facts)
 
@@ -64,6 +75,8 @@ We do not publish a site map. We do not use Jibbon as a Catch or Starline plate.
 - Raymond Ingrey — Burriburri, as taught; Gujaga Foundation; ABC Deep Time Australia.
 - Dr Frances Bodkin — D’harawal seasons and cycles (public calendar).
 - Les Bursill OAM, with Mary Jacobs, Deborah Lennis, Aunty Beryl Timbery-Beller, Merv Ryan — collaborative Dharawal history of southern Sydney (NLA).
+- NSW Heritage — Baiame Cave (Wonnarua / Hunter), cited only as a different Country. Not a Dharawal plate.
+
 - NSW NPWS — Jibbon conservation and coastal engravings, Royal National Park.
 - Public archaeology of the Sydney Basin Simple Figurative style (including Jo McDonald’s published synthesis).
 
