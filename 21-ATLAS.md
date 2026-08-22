@@ -28,7 +28,7 @@ Art for an industrial sitting: bearings, loops, failure, return. Usable only aft
 | IX | Asymmetric leverage | A few bearings do most of the work (80/20 as a chart). Does not name *which* few. | Treat garbled rays as a real lever list. |
 | X | Second-order consequences | Shape of cascade: 1st → 2nd → 3rd. Document 19. | Treat lightning labels (`1sd`, `19rd`, `41°`) as a prediction ledger. |
 | XI | The Cool Air of the Ordinary | Caption holds: “What ordinary evidence would still be true if the entire story was wrong?” Document 19 in one line. | Treat the red Americas globe as that evidence. |
-| — | Panel labelled “GILMORE · ERIS · BOWEN” | **Gilmour** Space. Eris vehicle. Bowen Orbital Spaceport (Abbot Point, QLD). Their licensed pad, not Catch. Juru Country. | Spell it Gilmore. Wear their stack, flag, or pad. Inherit Bowen. |
+| — | Panel labelled “GILMORE · ERIS · BOWEN” | Legal name: **Gilmour** Space Technologies. Eris. Bowen Orbital Spaceport (Abbot Point, QLD). Their licensed pad, not Catch. Juru Country. | Treat Gilmore as a name. Wear their stack, flag, or pad. Inherit Bowen. |
 | XIV | The Ordinary Evidence Log | Blank frames + the Document 19 question. Empty is correct. | Fill the boxes with Gilmour, Catch, or myth. |
 
 Spreads and scrolls are bindings. They add no new objects.
@@ -46,11 +46,14 @@ Spreads and scrolls are bindings. They add no new objects.
 | Scroll II | VII + X facing Gilmour panel + XI |
 | Scroll III | “Sovereign Continuum” — Gilmour stack on QLD dirt. Not Catch. |
 
-### 2.1 Spelling (binding)
+### 2.1 Legal name (binding)
 
-**Gilmour.** Gilmour Space Technologies. Eris. Bowen Orbital Spaceport.
+**Gilmour Space Technologies** is the registered company. That spelling is the legal name. Eris is their vehicle. Bowen Orbital Spaceport (Abbot Point, QLD) is their licensed facility.
 
-Not Gilmore. The generated plates letter it wrong. This sitting does not copy the error. They are not a TerAustralis facility.
+**Gilmore is not a name.** It is a lettering error on generated plates. This sitting quotes the error only to reject it. It does not adopt Gilmore as a style, a coinage, or an alternate spelling.
+
+They are not a TerAustralis facility. Catch does not inherit Bowen.
+
 
 
 ## 3. Failure modes that hold (Plate VII)
@@ -72,7 +75,8 @@ Those three are the usable instrument. The rest of Plate VII (inverted rockets, 
 3. **Globe.** If a globe appears, Australia and south must be readable as the ground of this sitting. A red Americas is not Red Dust Ground.
 4. **No third-party marks.** Do not publish files that carry a Grok watermark on www or proposal.
 5. **No images on this brief** until a corrected set exists. This page is the register, not a gallery.
-6. **Gilmour, not Gilmore.** Do not copy the plate’s misspelling. Do not wear their vehicle or pad.
+6. **Legal name: Gilmour.** Gilmore is a plate error, not an alternate. Do not copy it. Do not wear their vehicle or pad.
+
 
 
 ## 5. Bound (Document 20)
