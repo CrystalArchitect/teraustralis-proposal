@@ -29,7 +29,7 @@ Art for an industrial sitting: bearings, loops, failure, return. Usable only aft
 | X | Second-order consequences | Shape of cascade: 1st → 2nd → 3rd. Document 19. | Treat lightning labels (`1sd`, `19rd`, `41°`) as a prediction ledger. |
 | XI | The Cool Air of the Ordinary | Caption holds: “What ordinary evidence would still be true if the entire story was wrong?” Document 19 in one line. | Treat the red Americas globe as that evidence. |
 | — | Panel labelled “GILMORE · ERIS · BOWEN” | Legal name: **Gilmour** Space Technologies. Eris. Bowen Orbital Spaceport (Abbot Point, QLD). Their licensed pad, not Catch. Juru Country. | Treat Gilmore as a name. Wear their stack, flag, or pad. Inherit Bowen. |
-| XIV | The Ordinary Evidence Log | Blank frames + the Document 19 question. Empty is correct. | Fill the boxes with Gilmour, Catch, or myth. |
+| XIV | The Ordinary Evidence Log | Caption locked: “What ordinary evidence would still be true if the entire story was wrong?” Empty frames stay empty. Quiet Rest is that question on a near-blank field; still unpublished (wrong globe, Grok watermark). | Fill the boxes. Treat Quiet Rest as a finished plate. |
 
 Spreads and scrolls are bindings. They add no new objects.
 
@@ -54,6 +54,19 @@ Spreads and scrolls are bindings. They add no new objects.
 
 They are not a TerAustralis facility. Catch does not inherit Bowen.
 
+### 2.2 Unpublished (fail §4)
+
+These files exist. They are not plates in this register. They are not published — any channel (www, proposal, X, Discord). Get-up is not nominative use (NOTICE).
+
+| File | What holds | Why unpublished |
+|---|---|---|
+| XV / The Directive | Three lines: land every starline in red dust; keep the instrument provisional; prefer ordinary evidence. | Rocket as needle (§4.1). G-device stack (§4.4, §4.6). Watermark. |
+| Revelation / From Within the Core | — | Title is closed myth. Americas globe. Pad get-up. “The map was never outside. The core already knew” is identity armor (Document 18). Animation out of scope. |
+| STARLINE ATLAS · OPEN | — | Three Americas globes. Two Eris-like stacks. Two pads. Watermark. |
+| Quiet Rest | Same locked question as XIV. Near-blank is the right shape. | Wrong globe (§4.3). Grok watermark (§4.4). |
+
+“The atlas is now complete” is not sitting. §4 is not done.
+
 
 
 ## 3. Failure modes that hold (Plate VII)
@@ -62,7 +75,7 @@ Three labels on the cautionary plate are sitting language:
 
 | Label | Means here |
 |---|---|
-| Closed myth | First story crowned. Document 19: write the claim so it can die. |
+| Closed myth | First story crowned. Document 19: write the claim so it can die. “The core already knew” is this failure. |
 | Identity fusion | Armor that cannot flex. Document 18. Do not fuse Burriburri, Biame, Catch, Gate, CICH, Starlines, or **Gilmour / Eris / Bowen**. |
 | Loss of red-dust ground | Operator leaves local ground. Document 16 job: recover, refurbish, fuel. Document 20: Country is already spoken for. |
 
@@ -92,6 +105,8 @@ Gold is the grid. The dark is still Country.
 - Further plates until §4 is done
 - Catch, Gate, or CICH replaced by parchment
 - Partnership or endorsement implied by a watermark
+- “The atlas is now complete”
+- “The map was never outside. The core already knew”
 
 ## 7. One sentence
 
