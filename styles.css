@@ -109,6 +109,22 @@ nav .links a {
 }
 nav .links a:hover { color: var(--ember); }
 nav .links a[aria-current="page"] { color: var(--ember); }
+nav a:focus-visible, main a:focus-visible, footer a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid var(--dust);
+  outline-offset: 4px;
+}
+main a,
+footer a,
+nav .links a,
+.sitting-jump a,
+.doc-nav a,
+.source-link a {
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.18em;
+  text-decoration-color: currentColor;
+}
+nav .links a { text-underline-offset: 0.32em; }
 
 /* Hero */
 .hero {
@@ -277,7 +293,7 @@ ul.plain strong { color: var(--star); }
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.sitting-jump a { color: var(--hematite); text-decoration: none; }
+.sitting-jump a { color: var(--hematite); }
 .sitting-jump a:hover { color: var(--ember); }
 
 .gym {
@@ -654,7 +670,7 @@ footer .rights {
   font-size: 0.8rem;
   letter-spacing: 0.04em;
 }
-.doc-nav a { color: var(--star-dim); text-decoration: none; }
+.doc-nav a { color: var(--star-dim); }
 .doc-nav a:hover { color: var(--dust); }
 .doc-nav .next { text-align: right; }
 
@@ -706,6 +722,10 @@ footer .rights {
 
 @media (max-width: 768px) {
   nav .links a { margin-left: 16px; font-size: 0.8rem; }
+}
+@media (max-width: 560px) {
+  nav .wrap { padding-top: 12px; padding-bottom: 12px; }
+  nav .links a { min-height: 44px; padding: 10px 4px; }
 }
 
 @media (max-width: 560px) {
