@@ -113,9 +113,18 @@ nav a:focus-visible, main a:focus-visible, footer a:focus-visible, button:focus-
   outline: 3px solid var(--dust);
   outline-offset: 4px;
 }
-main a, footer a { text-decoration-thickness: 0.1em; text-underline-offset: 0.18em; }
-nav .links a { text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 0.32em; }
-nav .links a:hover, nav .links a:focus-visible, nav .links a[aria-current="page"] { text-decoration-color: currentColor; }
+main a,
+footer a,
+nav .links a,
+.sitting-jump a,
+.doc-nav a,
+.source-link a {
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.18em;
+  text-decoration-color: currentColor;
+}
+nav .links a { text-underline-offset: 0.32em; }
 
 /* Hero */
 .hero {
@@ -284,7 +293,7 @@ ul.plain strong { color: var(--star); }
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.sitting-jump a { color: var(--hematite); text-decoration: none; }
+.sitting-jump a { color: var(--hematite); }
 .sitting-jump a:hover { color: var(--ember); }
 
 .gym {
@@ -661,7 +670,7 @@ footer .rights {
   font-size: 0.8rem;
   letter-spacing: 0.04em;
 }
-.doc-nav a { color: var(--star-dim); text-decoration: none; }
+.doc-nav a { color: var(--star-dim); }
 .doc-nav a:hover { color: var(--dust); }
 .doc-nav .next { text-align: right; }
 
