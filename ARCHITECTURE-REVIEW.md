@@ -166,7 +166,7 @@ the rest of the document already holds itself to. If no public source exists
 yet, downgrade the framing to state it as reported/expected rather than
 settled fact.
 
-### 4. [Low] Rights footer inconsistently present across canonical documents
+### 4. [Fixed in this commit] Rights footer inconsistently present across canonical documents
 
 Per the project's own writing convention ("Documents carry the rights
 footer") and this repo's README (explicitly stricter than the rest of the
@@ -190,8 +190,13 @@ package regardless of any single file's footer — but worth aligning given
 that individual documents in this set (08, `GEO-BRIEF-ENGINEER.md`) are
 explicitly written to be read and forwarded as standalone artefacts.
 
-**Recommendation:** Add the standard rights footer to 01–03 and 21 at
-minimum; consider it for 16–20 as well for consistency.
+**Fixed:** Added the standard "**All rights reserved.** / TerAustralis
+Incognita — ABN 70 741 068 059" footer to `01-PROBLEMS.md`,
+`02-FIRST-PRINCIPLES.md`, `03-VISION.md`, and `21-ATLAS.md` in this commit.
+`16-CATCH.md` through `20-COUNTRY.md` were left untouched — they already
+carry the ABN, and fully restating the rights sentence across five more
+files is a smaller-priority consistency pass left for the maintainer rather
+than folded into this fix.
 
 ### 5. [Fixed in this commit] Spelling inconsistency
 

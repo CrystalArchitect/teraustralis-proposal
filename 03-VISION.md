@@ -71,3 +71,8 @@ Dreams become infrastructure.
 The light expands.
 
 This is the **TerAustralis Incognita** vision — the modern continuation of *Terra Australis Incognita*, scaled to the full multiplanetary horizon.
+
+---
+
+**All rights reserved.**  
+TerAustralis Incognita — ABN 70 741 068 059
