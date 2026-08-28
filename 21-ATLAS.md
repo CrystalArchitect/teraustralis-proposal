@@ -126,3 +126,8 @@ Caption (locked):
 - What ordinary evidence would still be true if the entire story was wrong?
 
 The generated parchment is still unpublished. This SVG is what was built here.
+
+---
+
+**All rights reserved.**  
+TerAustralis Incognita — ABN 70 741 068 059

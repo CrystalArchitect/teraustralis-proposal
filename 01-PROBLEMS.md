@@ -64,3 +64,8 @@ Distance amplifies this risk.
 
 These six problems define the scope.  
 The rest of the repository is the response.
+
+---
+
+**All rights reserved.**  
+TerAustralis Incognita — ABN 70 741 068 059

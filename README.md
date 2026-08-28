@@ -32,7 +32,7 @@ See [LICENSE](LICENSE).
 | 06 | [06-GEOGRAPHIC-BRIEF.md](06-GEOGRAPHIC-BRIEF.md) | Pilbara recovery axis + Aerotropolis West precinct |
 | 07 | [07-INVESTMENT-THESIS.md](07-INVESTMENT-THESIS.md) | One-page partnership thesis |
 | 08 | [08-SPACEX-XAI-ONE-PAGER.md](08-SPACEX-XAI-ONE-PAGER.md) | First-principles case for SpaceX engagement (xAI is now the SpaceXAI subsidiary — see note in doc) |
-| 09 | [09-SOUTHERN-NODE-ROADMAP.md](09-SOUTHERN-NODE-ROADMAP.md) | Multi-site map, kept separate from the active pitch — status-labeled, not a document to forward as-is |
+| 09 | [09-SOUTHERN-NODE-ROADMAP.md](09-SOUTHERN-NODE-ROADMAP.md) | Multi-site map, kept separate from the active pitch — status-labelled, not a document to forward as-is |
 | 10 | [10-SOVEREIGN-CAPABILITY.md](10-SOVEREIGN-CAPABILITY.md) | The institutional layer — education, governance, industry, culture, land — as the condition of engagement, honestly labelled a framework |
 | 11 | [11-PLANETARY-LATTICE.md](11-PLANETARY-LATTICE.md) | The joining rules for planetary infrastructure — self-description, scoped consent, survivable disconnection; no country assessed, ever |
 | 12 | [12-FULL-STACK.md](12-FULL-STACK.md) | Every layer of the stack mapped to one geography — minerals, energy, connectivity, compute, launch, autonomy — status-labelled; the ask unchanged |

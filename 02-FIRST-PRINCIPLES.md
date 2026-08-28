@@ -49,3 +49,8 @@ Southern Hemisphere capacity is a necessary counterweight.
 ---
 
 These principles govern every subsequent document in this repository.
+
+---
+
+**All rights reserved.**  
+TerAustralis Incognita — ABN 70 741 068 059
